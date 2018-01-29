@@ -166,7 +166,7 @@ For Flex Image Provisions (both image creation and server provisions), it is als
 |dal06|Dallas|Texas|USA|10.2.128.0/20|
 |dal07|Dallas|Texas|USA|10.1.176.0/20|
 |dal08|Dallas|Texas|USA|100.100.0.0/20|
-|dal09|Dallas|Texas|USA|10.2.112.0/20|
+|dal09|Dallas|Texas|USA|10.2.112.0/20 and 10.3.192.0/24|
 |dal10|Dallas|Texas|USA|10.200.80.0/20|
 |dal12|Dallas|Texas|USA|10.200.112.0/20|
 |dal13|Dallas|Texas|USA|10.200.128.0/20|
