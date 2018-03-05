@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="hardware-firewall-dedicated" audience="network" href="/docs/infrastructure/hardware-firewall-dedicated/getting-started.html"}
+硬體防火牆（專用）
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+    [瀏覽防火牆](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    adding-fsa.md
+    viewing-hardware-firewalls-account.md
+    editing-rules.md
+    bypassing.md
+    view-logs.md
+    cancelling.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="reference"}
+    ips.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+    known-limitations.md
+    getting-help.md
+    {: .navgroup-end}
