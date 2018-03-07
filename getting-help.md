@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017,2018
-lastupdated: "2018-02-28"
+  years: 2017
+lastupdated: "2017-11-29"
 
 ---
 
@@ -20,8 +20,8 @@ If you have problems or questions when using the Hardware Firewall (Dedicated), 
 
 When using the forums to ask a question, tag your question so that it is seen by the IBM Cloud development teams.
 
-* If you have technical questions about the Hardware Firewall (Dedicated), post your question on [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-cloud) and tag your question with "hardware-firewalls" and "ibm-cloud".
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=ibm-cloud) forum. Include the "hardware-firewalls" and "ibm-cloud" tags.
+* If you have technical questions about the Hardware Firewall (Dedicated), post your question on [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-bluemix) and tag your question with "hardware-firewalls" and "ibm-bluemix".
+* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=bluemix) forum. Include the "hardware-firewalls" and "bluemix" tags.
 
 See [Getting help](https://console.bluemix.net/docs/support/index.html#getting-help) for more details about using the forums.
 
