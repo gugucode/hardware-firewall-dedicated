@@ -153,7 +153,6 @@ For EVault port-specific information, [click here](https://console.bluemix.net/d
 ## Service Network (on backend/private network)
 Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in AMS01, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
 
-For Flex Image Provisions (both image creation and server provisions), it is also necessary to allow DAL05 through as well.
 
 |Datacenter|City|State|Country|IP Range|
 |---|---|---|---|---|
