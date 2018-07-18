@@ -7,8 +7,8 @@ Cortafuegos de hardware (dedicado)
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [Explorar cortafuegos](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
- {: .navgroup-end}
+    [Explorar cortafuegos](../fortigate-10g/explore-firewalls.html)
+    {: .navgroup-end}
 
     {: .navgroup id="howto"}
     adding-fsa.md
@@ -27,4 +27,4 @@ Cortafuegos de hardware (dedicado)
     faqs.md
     known-limitations.md
     getting-help.md
- {: .navgroup-end}
+    {: .navgroup-end}

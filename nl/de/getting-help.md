@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017,2018
+lastupdated: "2018-02-28"
 
 ---
 
@@ -20,8 +20,8 @@ Bei Problemen oder Fragen im Umgang mit der Hardware-Firewall (dediziert) könne
 
 Wenn Sie eine Frage über die Foren stellen, kennzeichnen Sie Ihre Frage, damit sie von den IBM Cloud-Entwicklerteams gesehen wird.
 
-* Bei technischen Fragen zur Hardware-Firewall (dediziert) posten Sie Ihre Fragen in [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-bluemix) und kennzeichnen Sie die Fragen mit den Tags "hardware-firewalls" und "ibm-bluemix".
-* Verwenden Sie für Fragen zum Service und zu ersten Schritten das Forum [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=bluemix). Schließen Sie die Tags "hardware-firewalls" und "bluemix" mit ein.
+* Bei technischen Fragen zur Hardware-Firewall (dediziert) posten Sie Ihre Fragen in [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-cloud) und kennzeichnen Sie die Fragen mit den Tags "hardware-firewalls" und "ibm-cloud".
+* Verwenden Sie für Fragen zum Service und zu ersten Schritten das Forum [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=ibm-cloud). Geben Sie die Tags "hardware-firewalls" und "ibm-cloud" an.
 
 Weitere Details zur Nutzung der Foren finden Sie unter [Hilfe anfordern](https://console.bluemix.net/docs/support/index.html#getting-help).
 

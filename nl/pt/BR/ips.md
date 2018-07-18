@@ -151,9 +151,8 @@ Todas as portas TCP/UDP<br>
 Para obter informações específicas de porta do EVault, [clique aqui](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Rede de serviço (na rede de backend/rede privada)
-Certifique-se de incluir regras para DAL01 e o local de seu servidor. Se o seu servidor estiver em AMS01, será necessário incluir regras que permitam o tráfego de ambos DAL01 e AMS01.
+Certifique-se de incluir as regras para DAL01, WDC04 e o local do seu servidor. Se o servidor estiver em AMS01, será necessário incluir regras que permitam o tráfego de DAL01, WDC04 e AMS01.
 
-Para Provisões de imagem flex (tanto criação de imagem quanto provisões do servidor), também será necessário permitir DAL05.
 
 |Datacenter|Cidade|Estado|Country|Intervalo de IP|
 |---|---|---|---|---|

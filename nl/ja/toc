@@ -7,7 +7,7 @@
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [ファイアウォールの詳細](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [ファイアウォールの詳細](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

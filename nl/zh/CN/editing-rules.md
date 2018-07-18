@@ -51,21 +51,21 @@ lastupdated: "2018-01-22"
 
 ## 公共端口
 
-| 协议| 端口|
+|协议|端口|
 | :-----: | :-----: |
-| FTP| 21 |
-| SSH | 22 |
-| Telnet | 23 |
-| SMTP | 25|
-| DNS | 53 |
-| HTTP | 80 |
-| POP3 | 110 |
-| IMAP | 143 |
-| HTTPS | 443 |
-| MSSQL | 1433 |
-| MySQL | 3306 |
-| 远程桌面| 3389 |
-| PostgreSQL| 5432 |
-| VNC Web | 5800 |
-| VNC 客户端| 5900 |
-| Urchin | 9999 或 10000 ||
+|FTP|21 |
+|SSH |22 |
+|Telnet |23 |
+|SMTP |25|
+|DNS |53 |
+|HTTP |80 |
+|POP3 |110 |
+|IMAP |143 |
+|HTTPS |443 |
+|MSSQL |1433 |
+|MySQL |3306 |
+|远程桌面|3389 |
+|PostgreSQL|5432 |
+|VNC Web |5800 |
+|VNC 客户端|5900 |
+|Urchin |9999 或 10000 ||

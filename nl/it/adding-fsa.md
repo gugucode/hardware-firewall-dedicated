@@ -14,13 +14,13 @@ lastupdated: "2018-01-19"
 {:tip: .tip}
 {:download: .download}
 
-# Aggiungi un firewall hardware (dedicato) a una VLAN pubblica 
+# Aggiungi un Hardware Firewall (Dedicated) a una VLAN pubblica
 
-Un firewall hardware (dedicato) non può essere ordinato come parte di un ordine del server e deve essere inserito dopo che viene stabilito almeno un nodo di calcolo pubblico e che sia stata aggiunta la VLAN associata. 
+Un Hardware Firewall (Dedicated) non può essere ordinato come parte di un ordine del server e deve essere inserito dopo che viene stabilito almeno un nodo di calcolo pubblico e che sia stata aggiunta la VLAN associata.
 
-Per aggiungere la protezione a una VLAN, ordina un firewall hardware (dedicato) dalla pagina delle VLAN:
+Per aggiungere la protezione a una VLAN, ordina un Hardware Firewall (Dedicated) dalla pagina delle VLAN:
 
-1. Dal tuo browser, apri [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} e accedi al tuo account. 
+1. Dal tuo browser, apri [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} e accedi al tuo account.
 2. Nella navigazione del portale del cliente, seleziona **Network > IP Management > VLANs** per andare alla pagina delle VLAN. Ogni riga rappresenta una VLAN nella tua infrastruttura. IBM Cloud popola le informazioni "VLAN Number" e "Primary Router" automaticamente indicando il router e il numero di VLAN reale che stanno venendo configurati. Il campo "Name" può essere utilizzato per definire un nome riconoscibile. La colonna all'estrema destra "Gateway/Firewall" contiene i dettagli, se presenti, su quale protezione firewall è in uso. 
 
 	**Suggerimento:** per filtrare la tabella delle VLAN in modo che mostri solo le VLAN pubbliche, fai clic sulla scheda **Filter**, immetti "fcr" nel campo Primary Router e fai clic sul pulsante **Filter**.
@@ -31,4 +31,4 @@ Per aggiungere la protezione a una VLAN, ordina un firewall hardware (dedicato) 
 
 5. Fai clic sul pulsante **Servers on this VLAN** per verificare se stai selezionando la VLAN appropriata.
 6. Immetti la tua scelta di pagamento e fai clic su **Continue**.
-7. Nella schermata successiva, immetti i codici promozionali se applicabili, leggi e accetta il Master Service Agreement e fai clic su **Place Order**.  
+7. Nella schermata successiva, immetti i codici promozionali se applicabili, leggi e accetta il Master Service Agreement e fai clic su **Place Order**. 

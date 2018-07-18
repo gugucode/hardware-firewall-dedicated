@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017,2018
+lastupdated: "2018-02-28"
 
 ---
 
@@ -20,8 +20,8 @@ Si tiene problemas o preguntas al utilizar el cortafuegos de hardware (dedicado)
 
 Al utilizar los foros para formular una pregunta, etiquete la pregunta para que la vean los equipos de desarrollo de IBM Cloud.
 
-* Si tiene preguntas técnicas sobre el cortafuegos de hardware (dedicado), publique su pregunta en [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-bluemix) y etiquétela con "hardware-firewalls" e "ibm-bluemix".
-* Para preguntas referidas al servicio e instrucciones de cómo empezar, utilice el foro [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=bluemix). Incluya las etiquetas "hardware-firewalls" y "bluemix".
+* Si tiene preguntas técnicas sobre el cortafuegos de hardware (dedicado), publique su pregunta en [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-cloud) y etiquétela con "hardware-firewalls" e "ibm-cloud".
+* Para formular preguntas sobre el servicio y obtener instrucciones de iniciación, utilice el foro [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=ibm-cloud). Incluya las etiquetas "hardware-firewalls" e "ibm-cloud".
 
 Consulte [Obtención de ayuda](https://console.bluemix.net/docs/support/index.html#getting-help) para obtener más detalles sobre el uso de los foros.
 

@@ -14,11 +14,11 @@ lastupdated: "2017-10-30"
 {:tip: .tip}
 {:download: .download}
 
-# Limitazioni note 
-Il firewall hardware (dedicato) ha le seguenti limitazioni note: 
+# Limitazioni note
+L'Hardware Firewall (Dedicated) ha le seguenti limitazioni note:
 
-* Incompatibile con Windows Network Load Balancing (NLB) a causa del modo in cui viene elaborato ARP 
+* Incompatibile con Windows Network Load Balancing (NLB) a causa del modo in cui viene elaborato ARP
 
-* La funzionalità di failover dell'elevata disponibilità non viene esposta all'utente. Se il firewall master ha un malfunzionamento, ma non un failover automatico, sarà necessario un ticket di supporto. Viene consigliato il monitoraggio del dispositivo per i servizi critici per garantire che i firewall stiano passando il traffico in modo appropriato. 
+* La funzionalità di failover dell'elevata disponibilità non viene esposta all'utente. Se il firewall master ha un malfunzionamento, ma non un failover automatico, sarà necessario un ticket di supporto. Viene consigliato il monitoraggio del dispositivo per i servizi critici per garantire che i firewall stiano passando il traffico in modo appropriato.
 
-* Un firewall hardware (dedicato) non può essere distribuito a una VLAN al momento associata a un gateway di rete, un firewall hardware o a un FortiGate Security Appliance. 
+* Un Hardware Firewall (Dedicated) non può essere distribuito a una VLAN al momento associata a un gateway di rete, un firewall hardware o a un FortiGate Security Appliance.

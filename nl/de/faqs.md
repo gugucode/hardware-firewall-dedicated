@@ -34,7 +34,7 @@ Ja. Die Hardware-Firewall (dediziert) ist sowohl mit standardmäßigen und dediz
 
 ## Kann ich eine dedizierte Hardware-Firewall und ein Netzgateway mit demselben VLAN verbinden?
 
-Nein, es ist nicht möglich, einen Hardware-Service (freigegeben oder dediziert) und ein Netzgateway-Gerät demselben VLAN zuzuweisen.  
+Nein, es ist nicht möglich, einen Hardware-Service (freigegeben oder dediziert) und ein Netzgateway-Gerät demselben VLAN zuzuweisen. 
 
 ## Fließt der öffentliche Datenverkehr zuerst durch die Einrichtung für den Lastausgleich oder die Firewall?
 
@@ -42,7 +42,7 @@ Aus dem öffentlichen Internet kommen zuerst die lokale Einrichtung für den Las
 
 ## Berechnet SoftLayer für die Firewall-Bandbreite eine Gebühr?
 
-Die Bandbreite für die Hardware-Firewall (freigegeben), die Hardware-Firewall (dediziert) und die FortiGate Security Appliance wird nicht abgerechnet. Darüber hinaus können diese Produkte die gesamte Bandbreitenauslastung reduzieren, indem sie den Datenverkehr begrenzt, auf den Server reagieren müssen.
+Die Bandbreite für die Hardware-Firewall (freigegeben), die Hardware-Firewall (dediziert) und die FortiGate Security Appliance wird nicht abgerechnet.  Darüber hinaus können diese Produkte die gesamte Bandbreitenauslastung reduzieren, indem sie den Datenverkehr begrenzt, auf den Server reagieren müssen.
 
 ## Was bedeuten die ausgegrauten Ports in meiner Windows-Firewall?
 
@@ -60,11 +60,11 @@ Die Liste der IP-Adressen und IP-Bereiche, die die Firewall zulässt, finden Sie
 
 ## Wie viele Server werden von der Hardware-Firewall (dediziert) oder der FortiGate Security Appliance maximal geschützt?
 
-Sowohl die dedizierte Hardware-Firewall als auch die FortiGate Security Appliance können in einem öffentlichen VLAN jeden Server schützen. Berücksichtigen Sie jedoch, dass diese Firewallgeräte mit 2 Gbit/s Uplink verbunden sind. Daher wird empfohlen, die Anzahl der Firewallinstanzen zu skalieren, um die Leistungsanforderungen Ihrer App zu erfüllen. Stellen Sie dazu zusätzliche öffentliche VLAN-Firewalls in einem Pod bereit, um zusätzliche Firewalls und zugehörige Rechenressourcen hinzuzufügen.
+Sowohl die dedizierte Hardware-Firewall als auch die FortiGate Security Appliance können in einem öffentlichen VLAN jeden Server schützen.  Berücksichtigen Sie jedoch, dass diese Firewallgeräte mit 2 Gbit/s Uplink verbunden sind. Daher wird empfohlen, die Anzahl der Firewallinstanzen zu skalieren, um die Leistungsanforderungen Ihrer App zu erfüllen. Stellen Sie dazu zusätzliche öffentliche VLAN-Firewalls in einem Pod bereit, um zusätzliche Firewalls und zugehörige Rechenressourcen hinzuzufügen.
 
 ## Welche VPN-Optionen sind mit jedem Firewallprodukt enthalten?
 
-Nicht alle Firewalls bieten VPN an und nicht alle VPN-Optionen sind identisch. Die allgemeinen Optionen für VPN lauten:
+Nicht alle Firewalls bieten VPN an und nicht alle VPN-Optionen sind identisch.  Die allgemeinen Optionen für VPN lauten:
 
 * Jeder Kunde erhält uneingeschränkte SSL-VPN-Verbindungen zu unserem privaten Netz. Diese Verbindungen können hergestellt werden, indem Sie oben auf der Seite auf den VPN-Link klicken, während Sie beim Kundenportal angemeldet sind.
 * Kunden erhalten außerdem pro Konto jeweils ein PPTP-VPN. Es können weitere PPTP-VPN-Benutzer in Paketen aus 5 Benutzern für 5 $ pro Monat zum Konto hinzugefügt werden.
@@ -76,8 +76,8 @@ Nicht alle Firewalls bieten VPN an und nicht alle VPN-Optionen sind identisch. D
 
 ## Wenn für die Hardware-Firewall (dediziert) oder FortiGate Security Appliance die Option "Hochverfügbarkeit" ausgewählt wurde, welche Schritte müssen dann durchgeführt werden, um dieses Feature zu nutzen?
 
-Keine. Bei einer Bestellung mit Hochverfügbarkeit (HA) stellt SoftLayer die Appliances automatisch in der HA-Konfiguration bereit. Wenn die primäre Einheit ausfällt, übernimmt eine sekundäre passive Einheit die Funktion der primären aktiven Instanz, um den Datenverkehr weiterzuleiten. Während dieses Failover normalerweise automatisch erfolgt, empfiehlt es sich, die Server zu überwachen und sicherzustellen, dass der Datenverkehr erfolgreich übertragen wird.
+Keine. Bei einer Bestellung mit Hochverfügbarkeit (HA) stellt SoftLayer die Appliances automatisch in der HA-Konfiguration bereit.  Wenn die primäre Einheit ausfällt, übernimmt eine sekundäre passive Einheit die Funktion der primären aktiven Instanz, um den Datenverkehr weiterzuleiten.  Während dieses Failover normalerweise automatisch erfolgt, empfiehlt es sich, die Server zu überwachen und sicherzustellen, dass der Datenverkehr erfolgreich übertragen wird.
 
-## Welche Firewallprodukte unterstützen die Public-to-Private-NAT- bzw. private VLAN-Segmentierung? 
+## Welche Firewallprodukte unterstützen die Public-to-Private-NAT- bzw. private VLAN-Segmentierung?
 
 FortiGate Security Appliance (10 Gbit/s) unterstützt eine Public-to-Private-NAT- bzw. private VLAN-Segmentierung. 

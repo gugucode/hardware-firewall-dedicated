@@ -2,12 +2,12 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="hardware-firewall-dedicated" audience="network" href="/docs/infrastructure/hardware-firewall-dedicated/getting-started.html"}
-Firewall hardware (dedicato) 
+Hardware Firewall (Dedicated)
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [Esplora i firewall](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [Esplora i firewall](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

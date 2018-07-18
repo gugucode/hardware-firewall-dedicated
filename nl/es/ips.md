@@ -151,9 +151,8 @@ Todos los puertos TCP/UDP<br>
 Para obtener información de puertos específicos para EVault, [pulse aquí](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Red de servicio (en red de fondo/privada)
-Añada reglas para DAL01 y la ubicación del servidor. Si el servidor está en AMS01, deberá añadir reglas que permitan el tráfico desde DAL01 y AMS01.
+Añada reglas para DAL01, WDC04 y la ubicación del servidor. Si el servidor está en AMS01, deberá añadir reglas que permitan el tráfico desde DAL01, WDC04 y AMS01.
 
-Para suministros de imagen Flex (suministros de servidor y creación de imágenes), también es necesario permitirlo en DAL05.
 
 |Centro de datos|Ciudad|Estado|País|Rango de IP|
 |---|---|---|---|---|

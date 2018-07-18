@@ -43,7 +43,7 @@ Na lista de dispositivos associados, é possível clicar em cada dispositivo e r
 
 Para VLANs que possuem **Firewall-vlanXXXX.networklayer.com** no campo "Gateway/Firewall", é possível clicar nesse link de firewall para exibir os detalhes do Firewall. Os detalhes do dispositivo incluem o roteador associado, a VLAN, as sub-redes IPv4/IPv6, os dispositivos associados a essa VLAN e os controles para rotear tráfego por meio ou ao redor do firewall.
 
-Os dispositivos FortiGate Security Appliance terão o IP de gerenciamento, o nome do usuário e a senha. O gerenciamento de FortiGate Security Appliances é concluído por meio de sua própria GUI ou do console baseado em SSH.
+Os dispositivos FortiGate Security Appliance terão o IP de gerenciamento, o nome do usuário e a senha.  O gerenciamento de FortiGate Security Appliances é concluído por meio de sua própria GUI ou do console baseado em SSH.
 
 ## Detalhes do Network Gateway
 

@@ -14,7 +14,7 @@ lastupdated: "2017-10-30"
 {:tip: .tip}
 {:download: .download}
 
-# Perguntas Frequentes
+# Perguntas mais frequentes
 A seguir estão as perguntas mais frequentes ao trabalhar com o firewall Fortigate Security Appliance 1g.
 
 ## O que é um firewall?
@@ -42,7 +42,7 @@ Vindo da Internet pública, os produtos Local Load Balancer, Dedicated Load Bala
 
 ## O SoftLayer cobra por largura de banda do firewall?
 
-O Hardware Firewall (Shared), o Hardware Firewall (Dedicated) e o Fortigate Security Appliance não são medidos quanto à largura da banda. Além disso, esses produtos podem reduzir a utilização da largura de banda total, limitando o tráfego a que os servidores devem responder.
+O Hardware Firewall (Shared), o Hardware Firewall (Dedicated) e o Fortigate Security Appliance não são medidos quanto à largura da banda.  Além disso, esses produtos podem reduzir a utilização da largura de banda total, limitando o tráfego a que os servidores devem responder.
 
 ## Quais são as portas esmaecidas no meu Firewall do Windows?
 
@@ -60,11 +60,11 @@ Para obter a lista de endereços IP e os intervalos de IP a serem permitidos por
 
 ## Qual é o número máximo de servidores que o Hardware Firewall (Dedicated) ou o Fortigate Security Appliance protegerá?
 
-O Dedicated Hardware Firewall e o Fortigate Security Appliance podem proteger todos os servidores em uma VLAN pública. No entanto, é importante observar que, uma vez que esses dispositivos de FW são conectados com um Uplink de 2 Gbps, recomendamos escalar o número de instâncias de firewall para atender às necessidades de desempenho de seu app. Os clientes podem simplesmente fazer isso implementando Firewalls adicionais de VLAN pública em um pod para permitir a inclusão de recursos adicionais de firewall e de cálculo associado.
+O Dedicated Hardware Firewall e o Fortigate Security Appliance podem proteger todos os servidores em uma VLAN pública.  No entanto, é importante observar que, uma vez que esses dispositivos de FW são conectados com um Uplink de 2 Gbps, recomendamos escalar o número de instâncias de firewall para atender às necessidades de desempenho de seu app. Os clientes podem simplesmente fazer isso implementando Firewalls adicionais de VLAN pública em um pod para permitir a inclusão de recursos adicionais de firewall e de cálculo associado.
 
 ## Quais opções de VPN são incluídas com cada produto Firewall?
 
-Nem todos os firewalls oferecem VPN e nem todas as opções de VPN são iguais. As opções gerais para VPN são:
+Nem todos os firewalls oferecem VPN e nem todas as opções de VPN são iguais.  As opções gerais para VPN são:
 
 * Cada cliente recebe conexões SSL VPN ilimitadas para a nossa rede privada. Essas conexões podem ser estabelecidas clicando no link VPN na parte superior da página enquanto conectado no portal do cliente.
 * Os clientes também recebem um PPTP VPN por conta. Eles podem incluir usuários PPTP VPN adicionais em suas contas em pacotes de 5 por US$ 5/mês extra.
@@ -76,7 +76,7 @@ Nem todos os firewalls oferecem VPN e nem todas as opções de VPN são iguais. 
 
 ## Ao selecionar a opção Alta disponibilidade para o Hardware Firewall (Dedicated) ou o Fortigate Security Appliance, quais etapas preciso realizar para aproveitar esse recurso?
 
-Nenhuma. Quando pedido em HA, o SoftLayer provisiona os dispositivos automaticamente na configuração de HA. No caso de o dispositivo primário falhar, um dispositivo passivo secundário assumirá como a instância ativa primária e começará a passar o tráfego. Embora esse failover seja geralmente automático, a melhor prática é monitorar os servidores e assegurar-se de que o tráfego esteja sendo passado com êxito.
+Nenhuma. Quando pedido em HA, o SoftLayer provisiona os dispositivos automaticamente na configuração de HA.  No caso de o dispositivo primário falhar, um dispositivo passivo secundário assumirá como a instância ativa primária e começará a passar o tráfego.  Embora esse failover seja geralmente automático, a melhor prática é monitorar os servidores e assegurar-se de que o tráfego esteja sendo passado com êxito.
 
 ## Quais produtos de firewall suportam NAT pública-para-privada e/ou segmentação de VLAN privada?
 

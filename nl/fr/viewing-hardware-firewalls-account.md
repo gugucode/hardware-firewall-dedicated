@@ -19,7 +19,7 @@ lastupdated: "2018-01-18"
 Pour voir quels sont les réseaux locaux virtuels protégés par des pare-feux et pour rechercher d'autres caractéristiques sur les pare-feux individuels, accédez à la page VLAN :
 
 1. Depuis votre navigateur, ouvrez le [Portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} et connectez-vous à votre compte.
-2. Dans la navigation du portail client, sélectionnez **Réseau > Gestion IP > VLAN**. 
+2. Dans la navigation du portail client, sélectionnez **Réseau > Gestion IP > VLAN**.
 
 Chaque ligne du tableau représente un réseau local virtuel (VLAN) dans votre infrastructure. IBM Cloud remplit automatiquement les informations "Numéro de VLAN" et "Routeur principal" en indiquant le vrai numéro de réseau local virtuel et le routeur sur lequel il est configuré. La zone "Nom" peut être utilisée pour attribuer un nom reconnaissable au réseau local virtuel (par exemple, DMZ, Intranet, Public ou Base de données).
 
@@ -34,7 +34,7 @@ La colonne à l'extrême droite intitulée "Passerelle/pare-feu" contient les d�
 
 Pour les VLAN ayant des **serveurs protégés individuellement** dans la zone "Passerelle/pare-feu", vous pouvez cliquer sur le lien du numéro VLAN pour afficher les détails du réseau local virtuel, y compris les unités associées.
 
-Dans la liste des unités associées, vous pouvez cliquer sur chaque unité et faire défiler l'écran jusqu'au bas de l'onglet Configuration. Vous verrez **Pare-feu** indiqué dans la zone Modules complémentaires avec le statut **Installé** ou **Non installé**.
+Dans la liste des unités associées, vous pouvez cliquer sur chaque unité et faire défiler l'écran jusqu'au bas de l'onglet Configuration. Vous verrez **Pare-feu** indiqué dans la zone Modules complémentaires avec le statut **Installé** ou **Non Installé**.
 
 - **Non installé** indique qu'aucun pare-feu n'est appliqué pour cette unité.
 - **Installé** indique qu'un pare-feu est appliqué. L'onglet **Pare-feu** sera disponible sur l'unité dans laquelle vous pouvez gérer la configuration de pare-feu.

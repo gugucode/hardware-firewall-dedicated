@@ -16,7 +16,7 @@ lastupdated: "2018-01-16"
 
 # Intervalli di IP di IBM Cloud
 
-Una domanda frequente è **Quali intervalli di IP consento tramite il firewall?**. Il seguente elenco contiene l'intervallo completo di IP da utilizzare con un firewall hardware (dedicato).
+Una domanda frequente è **Quali intervalli di IP consento tramite il firewall?**. Il seguente elenco contiene l'intervallo completo di IP da utilizzare con un Hardware Firewall (Dedicated).
 
 ## Rete di frontend (pubblica)
 
@@ -136,7 +136,7 @@ ICMP – ping (per il supporto con il monitoraggio e la risoluzione dei problemi
 |TOR|Toronto|-|CAN|158.85.116.0/24|
 |WDC|Washington D.C.|-|USA|50.22.255.0/24|
 
-Porte da consentire:<br>
+Porte da consentire: <br>
 Tutte le porte TCP/UDP
 
 ## Scansioni delle vulnerabilità
@@ -151,9 +151,8 @@ Tutte le porte TCP/UDP<br>
 Per le informazioni specifiche per la porta EVault, [fai clic qui](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Rete del servizio (nella rete di backend/privata)
-Assicurati di aggiungere le regole a DAL01 e all'ubicazione del tuo server. Se il tuo server è in AMS01, dovrai aggiungere le regole consentendo il traffico da DAL01 e AMS01.
+Assicurati di aggiungere le regole a DAL01, WDC04 e all'ubicazione del tuo server. Se il tuo server è in AMS01, dovrai aggiungere le regole consentendo il traffico da DAL01, WDC04 e AMS01.
 
-Per il provisioning dell'immagine Flex (provisioning del server e creazione dell'immagine), è inoltre necessario consentire anche DAL05.
 
 |Data center|Città|Stato|Paese|Intervallo di IP|
 |---|---|---|---|---|
@@ -200,7 +199,7 @@ Per il provisioning dell'immagine Flex (provisioning del server e creazione dell
 |wdc07|Washington D.C.|-|USA|10.200.176.0/20|
 
 ## Rete VPN SSL (nella rete di backend/privata)
-ICMP – ping (per il supporto con la risoluzione dei problemi)<br>
+ICMP – ping (per il supporto con la risoluzione dei problemi) <br>
 Tutte le porte TCP/UDP (per l'accesso dalla tua workstation locale)
 
 ## Data center VPN SSL

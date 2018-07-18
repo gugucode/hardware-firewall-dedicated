@@ -136,7 +136,7 @@ ICMP - Ping (zur Unterstützung der Fehlerbehebung und Überwachung)
 |TOR|Toronto|-|CAN|158.85.116.0/24|
 |WDC|Washington D.C.|-|USA|50.22.255.0/24|
 
-Zulässige Ports:<br>
+Zulässige Ports: <br>
 Alle TCP/UDP-Ports
 
 ## Scan auf Sicherheitslücken
@@ -151,9 +151,8 @@ Alle TCP/UDP-Ports<br>
 Port-spezifische EVault-Informationen finden Sie [hier](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Servicenetz (im Back-End-Netz/privatem Netz)
-Stellen Sie sicher, dass Sie die Regeln für DAL01 und den Standort Ihres Servers hinzuzufügen. Wenn sich Ihr Server in AMS01 befindet, müssen Sie Regeln hinzufügen, um den Datenverkehr von DAL01 und AMS01 zuzulassen.
+Stellen Sie sicher, dass Sie die Regeln für DAL01, WDC04 und den Standort Ihres Servers hinzuzufügen. Wenn sich Ihr Server in AMS01 befindet, müssen Sie Regeln hinzufügen, um den Datenverkehr von DAL01, WDC04 und AMS01 zuzulassen.
 
-Für Flex Image-Bereitstellungen (sowohl Image Creation als auch Serverbereitstellungen) muss auch DAL05 zulässig sein.
 
 |Rechenzentrum|Stadt|Staat|Land|IP-Bereich|
 |---|---|---|---|---|
@@ -200,7 +199,7 @@ Für Flex Image-Bereitstellungen (sowohl Image Creation als auch Serverbereitste
 |wdc07|Washington D.C.|-|USA|10.200.176.0/20|
 
 ## SSL-VPN-Netz (im Back-End-Netz/privatem Netz)
-ICMP - Ping (zur Unterstützung der Fehlerbehebung)<br>
+ICMP - Ping (zur Unterstützung der Fehlerbehebung) <br>
 Alle TCP/UDP-Ports (für den Zugriff von Ihrer lokalen Workstation)
 
 ## SSL-VPN-Rechenzentren

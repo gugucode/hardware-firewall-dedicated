@@ -151,9 +151,8 @@ Tous les ports TCP/UDP<br>
 Pour obtenir des informations de port pour EVault, [cliquez ici](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Réseau de service (sur réseau back-end/privé)
-Assurez-vous d'ajouter des règles pour le centre de données DAL01 et l'emplacement de votre serveur. Si votre serveur est AMS01, il vous faudra ajouter des règles autorisant le trafic en provenance de DAL01 et AMS01.
+Assurez-vous d'ajouter des règles pour DAL01, WDC04 et l'emplacement de votre serveur. Si votre serveur est AMS01, il vous faudra ajouter des règles autorisant le trafic en provenance de DAL01, WDC04 et AMS01.
 
-Pour la mise à disposition d'images Flex (création d'image et mise à disposition de serveur), il est nécessaire d'autoriser aussi le trafic via DAL05.
 
 |Centre de données|Ville|Etat|Pays|Plage d'adresses IP|
 |---|---|---|---|---|
@@ -200,7 +199,7 @@ Pour la mise à disposition d'images Flex (création d'image et mise à disposit
 |wdc07|Washington D.C.|-|USA|10.200.176.0/20|
 
 ## Réseau VPN SSL (sur réseau back-end/privé)
-ICMP – ping (pour le traitement des incidents du support)<br>
+ICMP – ping (pour le traitement des incidents du support) <br>
 Tous les ports TCP/UDP (pour accès à partir de votre poste de travail local)
 
 ## Centres de données de réseau VPN SSL

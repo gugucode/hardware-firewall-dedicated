@@ -20,8 +20,8 @@ Le pare-feu matériel (dédié) fournit aux clients une couche de sécurité ess
 Pour commander un pare-feu matériel (dédié), procédez comme suit :
 
 1. Depuis votre navigateur, ouvrez le [Portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} et connectez-vous à votre compte.
-2. Dans la navigation du portail client, sélectionnez **Réseau > Gestion IP > VLAN**. 
-3. Faites défiler l'écran jusqu'au réseau local virtuel que vous souhaitez protéger et cliquez sur le lien **Ajouter pare-feu** situé sur la même ligne. Ce lien ouvre la page **Commander Pare-feu Matériel (Dédié)**. 
+2. Dans la navigation du portail client, sélectionnez **Réseau > Gestion IP > VLAN**.
+3. Faites défiler l'écran jusqu'au réseau local virtuel que vous souhaitez protéger et cliquez sur le lien **Ajouter pare-feu** situé sur la même ligne. Ce lien ouvre la page **Commander Pare-feu Matériel (Dédié)**.
 4. Sélectionnez **Pare-feu matériel (dédié)** pour commander un pare-feu ou **Pare-feu matériel (haute disponibilité)** pour commander deux pare-feux dans une paire à haute disponibilité.
 5. Entrez le mode de paiement de votre choix et cliquez sur **Continuer**.
 6. Dans l'écran suivant, entrez, le cas échéant, les codes promo, lisez et acceptez le contrat cadre de service (MSA) et cliquez sur **Valider la commande**. 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017,2018
+lastupdated: "2018-02-28"
 
 ---
 
@@ -20,8 +20,8 @@ lastupdated: "2017-11-29"
 
 使用论坛提问时，请标记问题，以便 IBM Cloud 开发团队可以看到您的问题。
 
-* 如果您有硬件防火墙（专用）的技术问题，请在 [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-bluemix) 上发布您的问题，并使用“lbaas”和“ibm-bluemix”标记您的问题。
-* 有关服务的疑问和入门指示信息，请使用 [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=bluemix) 论坛。包含“hardware-firewalls”和“bluemix”标记。
+* 如果您有硬件防火墙（专用）的技术问题，请在 [Stack Overflow](https://stackoverflow.com/search?q=hardware-firewalls+ibm-cloud) 上发布您的问题，并使用“lbaas”和“ibm-cloud”标记您的问题。
+* 有关服务的疑问和入门指示信息，请使用 [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=ibm-cloud) 论坛。请加上“hardware-firewalls”和“ibm-cloud”标记。
 
 请参阅[获取帮助](https://console.bluemix.net/docs/support/index.html#getting-help)以获取有关使用论坛的更多详细信息。
 

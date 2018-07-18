@@ -14,22 +14,22 @@ lastupdated: "2017-10-30"
 {:tip: .tip}
 {:download: .download}
 
-## Visualizza i report di log 
+## Visualizza i report di log
 
 I log sono disponibili su una base per IP passando al dispositivo protetto, selezionando la scheda **Firewall** e selezionando **Actions > Firewall Logs**. 
 
-I log sono forniti nel formato .CSV e contengono quanto segue: 
+I log sono forniti nel formato .CSV e contengono quanto segue:
 
-**Event Type:** l'azione eseguita dal firewall (nega) 
+**Event Type:** l'azione eseguita dal firewall (nega)
 
-**Protocol:** il protocollo utilizzato per la comunicazione (TCP/PING/UDP/IRD/etc) 
+**Protocol:** il protocollo utilizzato per la comunicazione (TCP/PING/UDP/IRD/etc)
 
-**Source IP Address:** l'IP dove è stato originato il pacchetto 
+**Source IP Address:** l'IP dove è stato originato il pacchetto
 
-**Source Port:** la porta dove è stato originato il pacchetto 
+**Source Port:** la porta dove è stato originato il pacchetto
 
-**Destination IP:** la destinazione prevista per il pacchetto 
+**Destination IP:** la destinazione prevista per il pacchetto
 
-**Destination Port:** la porta prevista per il pacchetto 
+**Destination Port:** la porta prevista per il pacchetto
 
-**Creation Date:** la data e ora dell'azione (formato 24 ore) 
+**Creation Date:** la data e ora dell'azione (formato 24 ore)

@@ -7,7 +7,7 @@
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [浏览防火墙](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [Explore Firewalls](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

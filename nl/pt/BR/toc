@@ -7,7 +7,7 @@ Hardware Firewall (Dedicated)
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [Explorar Firewalls](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [Explorar Firewalls](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

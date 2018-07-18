@@ -42,7 +42,7 @@ Cuando procede de Internet público, los productos de equilibrador de carga loca
 
 ## ¿Cobra SoftLayer el ancho de banda del cortafuegos?
 
-El cortafuegos de hardware (compartido), el cortafuegos de hardware (dedicado) y el dispositivo de seguridad Fortigate no se miden por ancho de banda. Además, estos productos pueden reducir el uso total de ancho de banda limitando el tráfico al que deben responder los servidores.
+El cortafuegos de hardware (compartido), el cortafuegos de hardware (dedicado) y el dispositivo de seguridad Fortigate no se miden por ancho de banda.  Además, estos productos pueden reducir el uso total de ancho de banda limitando el tráfico al que deben responder los servidores.
 
 ## ¿Qué son los puertos inactivos en el cortafuegos de Windows?
 
@@ -60,11 +60,11 @@ Para consultar la lista de direcciones IP y los rangos IP que se pueden permitir
 
 ## ¿Cuál es el número máximo de servidores que protegen el cortafuegos de hardware (dedicado) o el dispositivo de seguridad Fortigate?
 
-Tanto el cortafuegos de hardware dedicado como el dispositivo de seguridad Fortigate pueden proteger a todos los servidores de una VLAN pública. Sin embargo, cabe mencionar que, puesto que estos dispositivos FW se conectan con enlace ascendente de 2 Gbps, se recomienda escalar el número de instancias de cortafuegos para responder a las necesidades de rendimiento de la app. Los clientes pueden hacerlo mediante el despliegue de cortafuegos adicionales de VLAN pública en un pod para que se puedan más cortafuegos y recursos de cálculo asociados.
+Tanto el cortafuegos de hardware dedicado como el dispositivo de seguridad Fortigate pueden proteger a todos los servidores de una VLAN pública.  Sin embargo, cabe mencionar que, puesto que estos dispositivos FW se conectan con enlace ascendente de 2 Gbps, se recomienda escalar el número de instancias de cortafuegos para responder a las necesidades de rendimiento de la app. Los clientes pueden hacerlo mediante el despliegue de cortafuegos adicionales de VLAN pública en un pod para que se puedan más cortafuegos y recursos de cálculo asociados.
 
 ## ¿Qué opciones de VPN se incluyen con cada producto de cortafuegos?
 
-No todos los cortafuegos ofrecen VPN y no todas las opciones de VPN son las mismas. Las opciones generales para VPN son:
+No todos los cortafuegos ofrecen VPN y no todas las opciones de VPN son las mismas.  Las opciones generales para VPN son:
 
 * Cada cliente recibe conexiones ilimitadas VPN con SSL a nuestra red privada. Estas conexiones pueden establecerse pulsando el enlace de VPN en la parte superior de la página, con la sesión iniciada en el portal de clientes.
 * Los clientes también reciben una VPN PPTP por cuenta. Pueden añadir más usuarios de VPN PPTP a su cuenta en paquetes de 5 por 5 USD/mes adicionales.
@@ -76,7 +76,7 @@ No todos los cortafuegos ofrecen VPN y no todas las opciones de VPN son las mism
 
 ## Cuando selecciono la opción de alta disponibilidad para el cortafuegos de hardware (dedicado) o el dispositivo de seguridad Fortigate, ¿qué pasos debo seguir para utilizar esta característica?
 
-Ninguno. Cuando se realizan los pedidos en alta disponibilidad, SoftLayer suministra automáticamente los dispositivos en configuración de alta disponibilidad. En el caso de que el dispositivo primario falle, un dispositivo pasivo secundario continuará como instancia activa primaria y empezará a transferir el tráfico. Aunque esta migración tras error suele ser automática, es recomendable supervisar los servidores y verificar que el tráfico se transmite satisfactoriamente.
+Ninguno. Cuando se realizan los pedidos en alta disponibilidad, SoftLayer suministra automáticamente los dispositivos en configuración de alta disponibilidad.  En el caso de que el dispositivo primario falle, un dispositivo pasivo secundario continuará como instancia activa primaria y empezará a transferir el tráfico.  Aunque esta migración tras error suele ser automática, es recomendable supervisar los servidores y verificar que el tráfico se transmite satisfactoriamente.
 
 ## ¿Qué productos de cortafuegos son compatibles con la segmentación de VLAN privada o NAT pública a privada?
 

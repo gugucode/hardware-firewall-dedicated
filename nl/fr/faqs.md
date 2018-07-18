@@ -42,7 +42,7 @@ Lorsqu'il provient du réseau Internet public, il passe d'abord par l'équilibre
 
 ## SoftLayer facture-t-il des frais pour la bande passante de pare-feu ?
 
-La bande passante du pare-feu matériel (partagé), du pare-feu matériel (dédié) et du dispositif de sécurité FortiGate n'est pas comptabilisée. Par ailleurs, ces produits contribuent à réduire l'utilisation de la bande passante totale en limitant le trafic auquel les serveurs doivent répondre.
+La bande passante du pare-feu matériel (partagé), du pare-feu matériel (dédié) et du dispositif de sécurité FortiGate n'est pas comptabilisée.  Par ailleurs, ces produits contribuent à réduire l'utilisation de la bande passante totale en limitant le trafic auquel les serveurs doivent répondre.
 
 ## A quoi correspondent les ports grisés dans mon pare-feu Windows ?
 
@@ -60,7 +60,7 @@ Pour obtenir la liste des adresses IP et des plages d'adresses IP à autoriser v
 
 ## Quel est le nombre maximal de serveurs pouvant être protégés par le pare-feu matériel (dédié) ou par le dispositif de sécurité FortiGate ?
 
-Le pare-feu matériel (dédié) et le dispositif de sécurité FortiGate (FSA) peuvent protéger tous les serveurs sur un réseau local virtuel public. Toutefois, il est important de noter que comme ces périphériques de pare-feu sont connectés avec une liaison montante de 2 Gbit/s, il est recommandé d'adapter le nombre d'instances de pare-feu pour obtenir les performances requises pour votre application. Les clients peuvent le faire en déployant des pare-feux de VLAN public supplémentaires dans un pod pour pouvoir ajouter d'autres pare-feux et ressources de traitement associées.
+Le pare-feu matériel (dédié) et le dispositif de sécurité FortiGate (FSA) peuvent protéger tous les serveurs sur un réseau local virtuel public.  Toutefois, il est important de noter que comme ces périphériques de pare-feu sont connectés avec une liaison montante de 2 Gbit/s, il est recommandé d'adapter le nombre d'instances de pare-feu pour obtenir les performances requises pour votre application. Les clients peuvent le faire en déployant des pare-feux de VLAN public supplémentaires dans un pod pour pouvoir ajouter d'autres pare-feux et ressources de traitement associées.
 
 ## Quelles sont les options VPN incluses dans chaque produit de pare-feu ?
 

@@ -7,7 +7,7 @@ Pare-feu matériel (dédié)
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [Exploration des pare-feux](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [Exploration des pare-feux](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

@@ -2,12 +2,12 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="hardware-firewall-dedicated" audience="network" href="/docs/infrastructure/hardware-firewall-dedicated/getting-started.html"}
-하드웨어 방화벽(전용)
+Hardware Firewall (Dedicated)
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
-    [방화벽 탐색](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [방화벽 탐색](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
