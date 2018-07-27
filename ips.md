@@ -172,6 +172,7 @@ Be sure to add rules for DAL01, WDC04, and the location of your server. If your 
 |dal13|Dallas|Texas|USA|10.200.128.0/20|
 |fra02|Frankfurt|-|DEU|10.3.80.0/20|
 |fra04|Frankfurt|-|DEU|10.201.112.0/20|
+|fra05|Frankfurt|-|DEU|10.201.128.0/20|
 |hkg02|Hong Kong|-|CHN|10.2.160.0/20|
 |hou02|Houston|Texas|USA|10.1.160.0/20|
 |lon02|London|-|ENG|10.1.208.0/20|
