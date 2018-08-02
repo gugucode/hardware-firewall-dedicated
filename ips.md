@@ -36,6 +36,7 @@ A frequently asked question is **What IP ranges do I allow through the firewall?
 |dal13|Dallas|Texas|USA|169.48.118.0/24|
 |fra02|Frankfurt|-|DEU|159.122.118.0/23|
 |fra04|Frankfurt|-|DEU|161.156.118.0/24|
+|fra05|Frankfurt|-|DEU|149.81.118.0/23|
 |hkg02|Hong Kong|-|CHN|119.81.138.0/23|
 |hou02|Houston|Texas|USA|173.193.118.0/23|
 |lon02|London|-|ENG|5.10.118.0/23|
