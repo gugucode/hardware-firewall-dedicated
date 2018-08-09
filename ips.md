@@ -153,8 +153,7 @@ All TCP/UDP ports<br>
 For EVault port-specific information, [click here](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Service Network (on backend/private network)
-Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in AMS01, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
-
+Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
 
 |Datacenter|City|State|Country|IP Range|
 |---|---|---|---|---|
