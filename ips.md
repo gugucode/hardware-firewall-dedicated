@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-10-09"
 
 ---
 
@@ -194,6 +194,8 @@ Be sure to add rules for DAL01, WDC04, and the location of your server. If your 
 |syd01|Sydney|-|AUS|10.3.96.0/20|
 |syd04|Sydney|-|AUS|10.201.16.0/20|
 |tok02|Tokyo|-|JPN|10.3.64.0/20|
+|tok04|Tokyo|-|JPN|10.201.176.0/20|
+|tok05|Tokyo|-|JPN|10.201.192.0/20|
 |tor01|Toronto|-|CAN|10.2.48.0/20|
 |wdc01|Washington D.C.|-|USA|10.1.96.0/19|
 |wdc03|Washington D.C.|-|USA|100.100.32.0/20|
