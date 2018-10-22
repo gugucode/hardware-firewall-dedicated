@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-09"
+lastupdated: "2018-10-22"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-10-09"
 
 # IBM Cloud IP Ranges
 
-A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with a Hardware Firewall (Dedicated).
+A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with your IBM appliance.
 
 ## Frontend (public) network
 
@@ -41,6 +41,7 @@ A frequently asked question is **What IP ranges do I allow through the firewall?
 |hou02|Houston|Texas|USA|173.193.118.0/23|
 |lon02|London|-|ENG|5.10.118.0/23|
 |lon04|London|-|ENG|169.62.118.0/24|
+|lon05|London|-|ENG|141.125.118.0/23|
 |lon06|London|-|ENG|158.176.118.0/23|
 |mel01|Melbourne|-|AUS|168.1.118.0/23|
 |mex01|Mexico City|-|MEX|169.57.118.0/23|
@@ -57,7 +58,10 @@ A frequently asked question is **What IP ranges do I allow through the firewall?
 |sng01|Jurong East|-|SGP|174.133.118.0/23|
 |syd01|Sydney|-|AUS|168.1.18.0/23|
 |syd04|Sydney|-|AUS|130.198.118.0/23|
+|syd05|Sydney|-|AUS|135.90.118.0/23|
 |tok02|Tokyo|-|JPN|161.202.118.0/23|
+|tok04|Tokyo|-|JPN|128.168.118.0/23|
+|tok05|Tokyo|-|JPN|165.192.118.0/23|
 |tor01|Toronto|-|CAN|158.85.118.0/23|
 |wdc01|Washington D.C.|-|USA|208.43.118.0/23|
 |wdc03|Washington D.C.|-|USA|192.255.38.0/24|
@@ -85,10 +89,13 @@ ICMP – ping (for support troubleshooting and monitoring)
 |dal12|Dallas|Texas|USA|169.47.117.0/24|
 |dal13|Dallas|Texas|USA|169.48.117.0/24|
 |fra02|Frankfurt|-|DEU|159.122.117.0/24|
+|fra04|Frankfurt|-|DEU|161.156.117.0/24|
+|fra05|Frankfurt|-|DEU|149.81.117.0/24|
 |hkg02|Hong Kong|-|CHN|119.81.137.0/24|
 |hou02|Houston|Texas|USA|173.193.118.0/23|
 |lon02|London|-|ENG|5.10.117.0/24|
 |lon04|London|-|ENG|158.175.117.0/24|
+|lon05|London|-|ENG|141.125.117.0/24|
 |lon06|London|-|ENG|158.176.117.0/24|
 |mel01|Melbourne|-|AUS|168.1.117.0/24|
 |mex01|Mexico City|-|MEX|169.57.117.0/24|
@@ -104,7 +111,10 @@ ICMP – ping (for support troubleshooting and monitoring)
 |sng01|Jurong East|-|SGP|174.133.117.0/24|
 |syd01|Sydney|-|AUS|168.1.17.0/24|
 |syd04|Sydney|-|AUS|130.198.117.0/24|
+|syd05|Sydney|-|AUS|135.90.117.0/24|
 |tok02|Tokyo|-|JPN|161.202.117.0/24|
+|tok04|Tokyo|-|JPN|128.168.117.0/24|
+|tok05|Tokyo|-|JPN|165.192.117.0/24|
 |tor01|Toronto|-|CAN|158.85.117.0/24|
 |wdc01|Washington D.C.|-|USA|50.22.248.0/25, 169.54.27.0/24, 198.11.250.0/24, 208.43.117.0/24|
 |wdc04|Washington D.C.|-|USA|169.55.117.0/24|
@@ -177,6 +187,7 @@ Be sure to add rules for DAL01, WDC04, and the location of your server. If your 
 |hou02|Houston|Texas|USA|10.1.160.0/20|
 |lon02|London|-|ENG|10.1.208.0/20|
 |lon04|London|-|ENG|10.201.32.0/20|
+|lon05|London|-|ENG|10.201.48.0/20|
 |lon06|London|-|ENG|10.201.64.0/20|
 |mel01|Melbourne|-|AUS|10.2.80.0/20|
 |mex01|Mexico City|-|MEX|10.2.176.0/20|
@@ -193,6 +204,7 @@ Be sure to add rules for DAL01, WDC04, and the location of your server. If your 
 |sng01|Jurong East|-|SGP|10.2.32.0/20|
 |syd01|Sydney|-|AUS|10.3.96.0/20|
 |syd04|Sydney|-|AUS|10.201.16.0/20|
+|syd05|Sydney|-|AUS|10.202.16.0/20|
 |tok02|Tokyo|-|JPN|10.3.64.0/20|
 |tok04|Tokyo|-|JPN|10.201.176.0/20|
 |tok05|Tokyo|-|JPN|10.201.192.0/20|
@@ -227,6 +239,7 @@ All TCP/UDP ports (for access from your local workstation)
 |hou02|Houston|Texas|USA|10.1.56.0/23|
 |lon02|London|-|ENG|10.2.220.0/24|
 |lon04|London|-|ENG|10.200.196.0/24|
+|lon05|London|-|ENG|10.201.208.0/24|
 |lon06|London|-|ENG|10.3.200.0/24|
 |mel01|Melbourne|-|AUS|10.2.228.0/24|
 |mex01|Mexico City|-|MEX|10.3.232.0/24|
@@ -243,7 +256,10 @@ All TCP/UDP ports (for access from your local workstation)
 |sng01|Jurong East|-|SGP|10.2.192.0/23|
 |syd01|Sydney|-|AUS|10.3.228.0/24|
 |syd04|Sydney|-|AUS|10.200.200.0/24|
+|syd05|Sydney|-|AUS|10.201.212.0/24|
 |tok02|Tokyo|-|JPN|10.2.224.0/24|
+|tok04|Tokyo|-|JPN|10.201.228.0/24|
+|tok05|Tokyo|-|JPN|10.201.224.0/24|
 |tor01|Toronto|-|CAN|10.1.232.0/24|
 |wdc01|Washington D.C.|-|USA|10.1.16.0/23|
 |wdc04|Washington D.C.|-|USA|10.3.212.0/24|
@@ -275,7 +291,9 @@ All TCP/UDP ports (for access from your local workstation)
 |dal09|Dallas|Texas|USA|10.2.233.0/24|
 |dal10|Dallas|Texas|USA|10.200.229.0/24|
 |dal12|Dallas|Texas|USA|10.200.217.0/24|
+|dal13|Dallas|Texas|USA|10.200.213.0/24|
 |fra02|Frankfurt|-|DEU|10.2.237.0/24|
+|fra04|Frankfurt|-|DEU|10.3.197.0/24|
 |hkg02|Hong Kong|-|CHN|10.2.217.0/24|
 |hou02|Houston|Texas|USA|10.1.59.0/24|
 |lon02|London|-|ENG|10.2.221.0/24|
@@ -291,6 +309,7 @@ All TCP/UDP ports (for access from your local workstation)
 |seo01|-|South Korea|KOR|10.200.225.0/24|
 |sjc01|San Jose|California|USA|10.1.227.0/24|
 |sjc03|San Jose|California|USA|10.3.205.0/24|
+|sjc04|San Jose|California|USA|10.200.193.0/24|
 |sng01|Jurong East|-|SGP|10.2.195.0/24|
 |syd01|Sydney|-|AUS|10.3.229.0/24|
 |syd04|Sydney|-|AUS|10.200.201.0/24|
