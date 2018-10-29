@@ -14,6 +14,8 @@ lastupdated: "2018-10-22"
 {:tip: .tip}
 {:download: .download}
 
+**NOTE: this is not the full list of IP ranges that IBM Cloud uses.** This document only contains the IP ranges used by the *Hardware Firewall (Dedicated)* appliance.
+
 # IBM Cloud IP Ranges
 
 A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with your IBM appliance.
