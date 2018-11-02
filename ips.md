@@ -16,7 +16,15 @@ lastupdated: "2018-10-22"
 
 # IBM Cloud IP Ranges
 
-A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with your IBM appliance.
+A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with the following IBM firewalls and appliances:
+
+* IBM Cloud Juniper vSRX Standard
+* IBM Virtual Router Appliance
+* Fortigate Security Appliance 10Gbps
+* Fortigate Security Appliance 1Gbps
+* IBM Security Groups
+* Hardware Firewall (Dedicated)
+* Hardware Firewall (Shared)
 
 ## Frontend (public) network
 
@@ -160,7 +168,7 @@ IP block: your private IP block for server to server communications (10.X.X.X/X)
 Ports to allow:<br>
 ICMP – ping (for support troubleshooting)<br>
 All TCP/UDP ports<br>
-For EVault port-specific information, [click here](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
+For EVault port-specific information, [click here](../../infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Service Network (on backend/private network)
 Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
