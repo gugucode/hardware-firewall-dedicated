@@ -168,7 +168,7 @@ IP block: your private IP block for server to server communications (10.X.X.X/X)
 Ports to allow:<br>
 ICMP – ping (for support troubleshooting)<br>
 All TCP/UDP ports<br>
-For EVault port-specific information, [click here](../../infrastructure/Backup/evault-port-information.html#evault-port-information).
+For EVault port-specific information, [click here](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Service Network (on backend/private network)
 Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
