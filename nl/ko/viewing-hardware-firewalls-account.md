@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-01-18"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -26,8 +26,8 @@ lastupdated: "2018-01-18"
 맨 오른쪽 열 "게이트웨이/방화벽"에는 어떤 방화벽 보호가 준비되어 있는지에 대한 세부사항이 포함됩니다. 예를 들면, 다음과 같습니다.
 
 - **방화벽 추가**는 이 VLAN의 서버에 대해 준비된 방화벽이 없음을 표시합니다.
-- **개별 보호된 서버**는 하나 이상의 서버에서 Hardware Firewall (공유)를 활용하고 있으며 Hardware Firewall (Dedicated), FortiGate 보안 어플라이언스 또는 네트워크 게이트웨이가 없음을 나타냅니다. VLAN 방화벽과 네트워크 게이트웨이는 개별 보호된 서버가 있는 VLAN에 배치할 수 없습니다.
-- **Firewall-vlanXXXX.networklayer.com**은 Hardware Firewall (Dedicated) 또는 FortiGate 보안 어플라이언스가 준비되어 있음을 나타냅니다. 단 하나의 VLAN 방화벽 또는 네트워크 게이트웨이를 VLAN과 연관시킬 수 있지만, 서버를 공용 VLAN에서 VLAN 방화벽으로 보호하고 사설 네트워크에서 네트워크 게이트웨이와 연관시킬 수 있습니다.
+- **개별 보호된 서버**는 하나 이상의 서버에서 Hardware Firewall (공유)를 활용하고 있으며 Hardware Firewall (Dedicated), FortiGate Security Appliance 또는 네트워크 게이트웨이가 없음을 나타냅니다. VLAN 방화벽과 네트워크 게이트웨이는 개별 보호된 서버가 있는 VLAN에 배치할 수 없습니다.
+- **Firewall-vlanXXXX.networklayer.com**은 Hardware Firewall (Dedicated) 또는 FortiGate Security Appliance가 준비되어 있음을 나타냅니다. 단 하나의 VLAN 방화벽 또는 네트워크 게이트웨이를 VLAN과 연관시킬 수 있지만, 서버를 공용 VLAN에서 VLAN 방화벽으로 보호하고 사설 네트워크에서 네트워크 게이트웨이와 연관시킬 수 있습니다.
 - **GatewayName**은 VLAN이 해당 네트워크 게이트웨이와 연관되어 있음을 나타냅니다.
 
 ## 개별 보호된 서버 세부사항
@@ -43,7 +43,7 @@ lastupdated: "2018-01-18"
 
 "게이트웨이/방화벽" 필드에 **Firewall-vlanXXXX.networklayer.com**이 있는 VLAN의 경우 해당 방화벽 링크를 클릭하여 방화벽의 세부사항을 표시할 수 있습니다. 디바이스 세부사항에는 연관된 라우터, VLAN, IPv4/IPv6 서브넷, 해당 VLAN과 연관된 디바이스, 트래픽을 라우트 쓰루하거나 방화벽을 라우트 어라운드하기 위한 제어가 포함되어 있습니다.
 
-FortiGate 보안 어플라이언스 디바이스에는 관리 IP, 사용자 이름 및 비밀번호가 있습니다.  FortiGate 보안 어플라이언스의 관리는 해당 GUI 또는 SSH 기반 콘솔을 통해 완료됩니다.
+FortiGate Security Appliance 디바이스에는 관리 IP, 사용자 이름 및 비밀번호가 있습니다.  FortiGate Security Appliances의 관리는 해당 GUI 또는 SSH 기반 콘솔을 통해 완료됩니다.
 
 ## 네트워크 게이트웨이 세부사항
 

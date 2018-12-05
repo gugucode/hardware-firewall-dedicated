@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -24,6 +24,6 @@ lastupdated: "2018-02-28"
 * サービスおよび開始手順についての質問の場合、
 [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/hardware-firewalls.html?smartspace=ibm-cloud) フォーラムを使用します。 「hardware-firewalls」と「ibm-cloud」のタグを付けてください。
 
-フォーラムの利用について詳しくは、[ヘルプの利用](https://console.bluemix.net/docs/support/index.html#getting-help)を参照してください。
+フォーラムの利用について詳しくは、[ヘルプの利用](/docs/support/index.html#getting-help)を参照してください。
 
-IBM サポート・チケットのオープンや、サポート・レベルおよびチケットの重大度については、[ サポートへの問い合わせ](https://console.bluemix.net/docs/support/index.html#contacting-support)を参照してください。
+IBM サポート・チケットのオープンや、サポート・レベルおよびチケットの重大度については、[ サポートへの問い合わせ](/docs/support/index.html#contacting-support)を参照してください。

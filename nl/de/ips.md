@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -16,7 +16,15 @@ lastupdated: "2018-01-16"
 
 # IP-Bereiche von IBM Cloud
 
-Eine häufig gestellte Frage ist **Welche IP-Bereiche sind für die Firewall zulässig?**. Die folgende Liste enthält alle IP-Bereiche, die mit einer Hardware-Firewall (dediziert) verwendet werden.
+Eine häufig gestellte Frage ist **Welche IP-Bereiche sind für die Firewall zulässig?**. Die folgende Liste enthält alle IP-Bereiche, die mit den nachfolgend aufgeführten IBM Firewalls und Appliances verwendet werden können:
+
+* IBM Cloud Juniper vSRX Standard
+* IBM Virtual Router Appliance
+* Fortigate Security Appliance 10Gbps
+* Fortigate Security Appliance 1Gbps
+* IBM Sicherheitsgruppen
+* Hardware-Firewall (dediziert)
+* Hardware-Firewall (gemeinsam genutzt)
 
 ## Front-End-Netz (öffentlich)
 
@@ -35,10 +43,13 @@ Eine häufig gestellte Frage ist **Welche IP-Bereiche sind für die Firewall zul
 |dal12|Dallas|Texas|USA|169.47.118.0/23|
 |dal13|Dallas|Texas|USA|169.48.118.0/24|
 |fra02|Frankfurt|-|DEU|159.122.118.0/23|
+|fra04|Frankfurt|-|DEU|161.156.118.0/24|
+|fra05|Frankfurt|-|DEU|149.81.118.0/23|
 |hkg02|Hongkong|-|CHN|119.81.138.0/23|
 |hou02|Houston|Texas|USA|173.193.118.0/23|
 |lon02|London|-|ENG|5.10.118.0/23|
 |lon04|London|-|ENG|169.62.118.0/24|
+|lon05|London|-|ENG|141.125.118.0/23|
 |lon06|London|-|ENG|158.176.118.0/23|
 |mel01|Melbourne|-|AUS|168.1.118.0/23|
 |mex01|Mexiko-Stadt|-|MEX|169.57.118.0/23|
@@ -55,7 +66,10 @@ Eine häufig gestellte Frage ist **Welche IP-Bereiche sind für die Firewall zul
 |sng01|Jurong East|-|SGP|174.133.118.0/23|
 |syd01|Sydney|-|AUS|168.1.18.0/23|
 |syd04|Sydney|-|AUS|130.198.118.0/23|
+|syd05|Sydney|-|AUS|135.90.118.0/23|
 |tok02|Tokio|-|JPN|161.202.118.0/23|
+|tok04|Tokio|-|JPN|128.168.118.0/23|
+|tok05|Tokio|-|JPN|165.192.118.0/23|
 |tor01|Toronto|-|CAN|158.85.118.0/23|
 |wdc01|Washington D.C.|-|USA|208.43.118.0/23|
 |wdc03|Washington D.C.|-|USA|192.255.38.0/24|
@@ -83,10 +97,13 @@ ICMP - Ping (zur Unterstützung der Fehlerbehebung und Überwachung)
 |dal12|Dallas|Texas|USA|169.47.117.0/24|
 |dal13|Dallas|Texas|USA|169.48.117.0/24|
 |fra02|Frankfurt|-|DEU|159.122.117.0/24|
+|fra04|Frankfurt|-|DEU|161.156.117.0/24|
+|fra05|Frankfurt|-|DEU|149.81.117.0/24|
 |hkg02|Hongkong|-|CHN|119.81.137.0/24|
 |hou02|Houston|Texas|USA|173.193.118.0/23|
 |lon02|London|-|ENG|5.10.117.0/24|
 |lon04|London|-|ENG|158.175.117.0/24|
+|lon05|London|-|ENG|141.125.117.0/24|
 |lon06|London|-|ENG|158.176.117.0/24|
 |mel01|Melbourne|-|AUS|168.1.117.0/24|
 |mex01|Mexiko-Stadt|-|MEX|169.57.117.0/24|
@@ -102,7 +119,10 @@ ICMP - Ping (zur Unterstützung der Fehlerbehebung und Überwachung)
 |sng01|Jurong East|-|SGP|174.133.117.0/24|
 |syd01|Sydney|-|AUS|168.1.17.0/24|
 |syd04|Sydney|-|AUS|130.198.117.0/24|
+|syd05|Sydney|-|AUS|135.90.117.0/24|
 |tok02|Tokio|-|JPN|161.202.117.0/24|
+|tok04|Tokio|-|JPN|128.168.117.0/24|
+|tok05|Tokio|-|JPN|165.192.117.0/24|
 |tor01|Toronto|-|CAN|158.85.117.0/24|
 |wdc01|Washington D.C.|-|USA|50.22.248.0/25, 169.54.27.0/24, 198.11.250.0/24, 208.43.117.0/24|
 |wdc04|Washington D.C.|-|USA|169.55.117.0/24|
@@ -148,11 +168,10 @@ IP-Block: Ihr privater IP-Block für die Übertragung zwischen Servern (10.X.X.X
 Zulässige Ports:<br>
 ICMP - Ping (zur Unterstützung der Fehlerbehebung)<br>
 Alle TCP/UDP-Ports<br>
-Port-spezifische EVault-Informationen finden Sie [hier](https://console.bluemix.net/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
+Port-spezifische EVault-Informationen finden Sie [hier](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Servicenetz (im Back-End-Netz/privatem Netz)
-Stellen Sie sicher, dass Sie die Regeln für DAL01, WDC04 und den Standort Ihres Servers hinzuzufügen. Wenn sich Ihr Server in AMS01 befindet, müssen Sie Regeln hinzufügen, um den Datenverkehr von DAL01, WDC04 und AMS01 zuzulassen.
-
+Stellen Sie sicher, dass Sie die Regeln für DAL01, WDC04 und den Standort Ihres Servers hinzuzufügen. Wenn sich Ihr Server an einem EU-Standort befindet, müssen Sie Regeln hinzufügen, um den Datenverkehr von DAL01, WDC04 und AMS01 zuzulassen.
 
 |Rechenzentrum|Stadt|Staat|Land|IP-Bereich|
 |---|---|---|---|---|
@@ -170,10 +189,13 @@ Stellen Sie sicher, dass Sie die Regeln für DAL01, WDC04 und den Standort Ihres
 |dal12|Dallas|Texas|USA|10.200.112.0/20|
 |dal13|Dallas|Texas|USA|10.200.128.0/20|
 |fra02|Frankfurt|-|DEU|10.3.80.0/20|
+|fra04|Frankfurt|-|DEU|10.201.112.0/20|
+|fra05|Frankfurt|-|DEU|10.201.128.0/20|
 |hkg02|Hongkong|-|CHN|10.2.160.0/20|
 |hou02|Houston|Texas|USA|10.1.160.0/20|
 |lon02|London|-|ENG|10.1.208.0/20|
 |lon04|London|-|ENG|10.201.32.0/20|
+|lon05|London|-|ENG|10.201.48.0/20|
 |lon06|London|-|ENG|10.201.64.0/20|
 |mel01|Melbourne|-|AUS|10.2.80.0/20|
 |mex01|Mexiko-Stadt|-|MEX|10.2.176.0/20|
@@ -190,7 +212,10 @@ Stellen Sie sicher, dass Sie die Regeln für DAL01, WDC04 und den Standort Ihres
 |sng01|Jurong East|-|SGP|10.2.32.0/20|
 |syd01|Sydney|-|AUS|10.3.96.0/20|
 |syd04|Sydney|-|AUS|10.201.16.0/20|
+|syd05|Sydney|-|AUS|10.202.16.0/20|
 |tok02|Tokio|-|JPN|10.3.64.0/20|
+|tok04|Tokio|-|JPN|10.201.176.0/20|
+|tok05|Tokio|-|JPN|10.201.192.0/20|
 |tor01|Toronto|-|CAN|10.2.48.0/20|
 |wdc01|Washington D.C.|-|USA|10.1.96.0/19|
 |wdc03|Washington D.C.|-|USA|100.100.32.0/20|
@@ -222,6 +247,7 @@ Alle TCP/UDP-Ports (für den Zugriff von Ihrer lokalen Workstation)
 |hou02|Houston|Texas|USA|10.1.56.0/23|
 |lon02|London|-|ENG|10.2.220.0/24|
 |lon04|London|-|ENG|10.200.196.0/24|
+|lon05|London|-|ENG|10.201.208.0/24|
 |lon06|London|-|ENG|10.3.200.0/24|
 |mel01|Melbourne|-|AUS|10.2.228.0/24|
 |mex01|Mexiko-Stadt|-|MEX|10.3.232.0/24|
@@ -238,7 +264,10 @@ Alle TCP/UDP-Ports (für den Zugriff von Ihrer lokalen Workstation)
 |sng01|Jurong East|-|SGP|10.2.192.0/23|
 |syd01|Sydney|-|AUS|10.3.228.0/24|
 |syd04|Sydney|-|AUS|10.200.200.0/24|
+|syd05|Sydney|-|AUS|10.201.212.0/24|
 |tok02|Tokio|-|JPN|10.2.224.0/24|
+|tok04|Tokio|-|JPN|10.201.228.0/24|
+|tok05|Tokio|-|JPN|10.201.224.0/24|
 |tor01|Toronto|-|CAN|10.1.232.0/24|
 |wdc01|Washington D.C.|-|USA|10.1.16.0/23|
 |wdc04|Washington D.C.|-|USA|10.3.212.0/24|
@@ -270,7 +299,9 @@ Alle TCP/UDP-Ports (für den Zugriff von Ihrer lokalen Workstation)
 |dal09|Dallas|Texas|USA|10.2.233.0/24|
 |dal10|Dallas|Texas|USA|10.200.229.0/24|
 |dal12|Dallas|Texas|USA|10.200.217.0/24|
+|dal13|Dallas|Texas|USA|10.200.213.0/24|
 |fra02|Frankfurt|-|DEU|10.2.237.0/24|
+|fra04|Frankfurt|-|DEU|10.3.197.0/24|
 |hkg02|Hongkong|-|CHN|10.2.217.0/24|
 |hou02|Houston|Texas|USA|10.1.59.0/24|
 |lon02|London|-|ENG|10.2.221.0/24|
@@ -286,6 +317,7 @@ Alle TCP/UDP-Ports (für den Zugriff von Ihrer lokalen Workstation)
 |seo01|-|Südkorea|KOR|10.200.225.0/24|
 |sjc01|San Jose|Kalifornien|USA|10.1.227.0/24|
 |sjc03|San Jose|Kalifornien|USA|10.3.205.0/24|
+|sjc04|San Jose|Kalifornien|USA|10.200.193.0/24|
 |sng01|Jurong East|-|SGP|10.2.195.0/24|
 |syd01|Sydney|-|AUS|10.3.229.0/24|
 |syd04|Sydney|-|AUS|10.200.201.0/24|
