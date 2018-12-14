@@ -26,4 +26,4 @@ To bypass the firewall rules,
 
 ## Enable the Rules Again
 
-To enable the rules again, follow the instructions above to reach the **Configuration** tab of the device and click on the **Actions** dropdown menu and choose **Set Route Bypass**. You will get a confirmation dialog. Click **Yes** to confirm the action. The "Status" will change back to "Routing THROUGH firewall" within two minutes.
+To enable the rules again, follow the instructions above to reach the **Device Details** page, click on the **Actions** dropdown menu and choose **Set Route Bypass**. You will get a confirmation dialog. Click **Yes** to confirm the action. The "Status" will change back to "Routing THROUGH firewall" within two minutes.
