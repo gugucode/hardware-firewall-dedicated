@@ -29,8 +29,6 @@ To edit the firewall rules:
 
     The fields are:
 
-    **Order:** The rule's order number. Rules can be moved up or down the list with the provided arrows and are enforced from top to bottom.
-
     **Action:** 'permit' or 'deny' traffic matching this rule
 
     **Source:** Can be either 'any' or a specific ip address or the network address for a specific subnet.
