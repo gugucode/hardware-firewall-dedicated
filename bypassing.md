@@ -20,7 +20,7 @@ To bypass the firewall rules,
 
 1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
 2. In the Customer Portal navigation, go to **Network > IP Management > VLANs** and click on the firewall device you want to bypass.
-3. In the **Device Details** page, in the **Configuration** tab, you can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status:** section, you can click **Bypass Rules**. 
+3. In the **Device Details** page, you can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status:** section, you can click **Bypass Rules**. 
 
 	Another option is to route around the firewall by clicking **Route Around**. Either way, you will get a confirmation dialog. Click **Yes** to confirm the action. Bypassing the rules takes approximately two minutes to take effect. While in bypass mode, the "Status" will be "Routing AROUND firewall".
 
