@@ -16,7 +16,7 @@ lastupdated: "2018-11-30"
 
 # IBM Cloud IP Ranges
 
-A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with the following IBM firewalls and appliances:
+A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with the following IBM© firewalls and appliances:
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
@@ -377,7 +377,6 @@ If your server uses a **Red Hat Enterprise Linux (RHEL)** license provided by So
 |Singapore (SNG01)|TOK02 and SYD01|
 |Seattle (SEA01)|SJC03 and DAL06|
 |Sydney (SYD01, SYD04)|SYD01|
-|Tokyo (TOK02, TOK04, TOK05)|TOK02 and SYD01|
 |Toronto (TOR01)|TOR01|
 |Washington DC (WDC01, WDC04, WDC06, WDC07)|MON01|
 |Any DC Not Listed Above|DAL09|
