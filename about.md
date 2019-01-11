@@ -28,7 +28,7 @@ Since monthly server bandwidth is recorded at the server switch port, traffic bl
 
 **Intended Use:** Single Public VLAN Protection
 
-**User Interface:** Integrated into Customer Portal and SoftLayer API
+**User Interface:** Integrated into Classic Infrastructure in IBM Cloud and SoftLayer API
 
 **Features:** Stateful Packet Inspection, VLAN Protection, Ingress Firewall Rules, Basic Logging, IPv4, IPv6, High Availability (Optional)
 
