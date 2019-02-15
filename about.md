@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# About
+# About the Hardware Firewall (Dedicated)
 
 A Hardware Firewall (Dedicated) is a dedicated single-tenant network device that is connected upstream from a server and protects any or all servers on a public VLAN. It is purchased separately from a server, and it can be added to a VLAN at any time.   
 

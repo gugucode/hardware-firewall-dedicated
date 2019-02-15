@@ -15,7 +15,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# FAQs
+# FAQs for Hardware Firewall (Dedicated)
 The following are frequently asked questions when working with the Fortigate Security Appliance 1g firewall.
 
 ## What is a firewall?
@@ -31,7 +31,7 @@ The primary advantage of having a firewall is that your server only has to handl
 ## What firewall products does IBM© offer?
 {:faq}
 
-You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## Is the Hardware Firewall (Dedicated) compatible with IBM's load balancer products?
 {:faq}
@@ -68,7 +68,7 @@ If 10Gbps is only required on the private network (for database, backup, storage
 ## What IP ranges do I allow through the firewall?
 {:faq}
 
-For the list of IP addresses and IP ranges to allow through the firewall, go [here](ips.html). 
+For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## What is the maximum number of servers that the Hardware Firewall (Dedicated) or Fortigate Security Appliance will protect?
 {:faq}

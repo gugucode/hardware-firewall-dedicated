@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Add a Hardware Firewall (Dedicated) to a public VLAN
+# Adding a Hardware Firewall (Dedicated) to a public VLAN
 
 A Hardware Firewall (Dedicated) cannot be ordered as part of a server order and must be placed after at least one public compute node is established and the associated VLAN has been added.
 
