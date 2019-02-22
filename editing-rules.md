@@ -46,6 +46,7 @@ To edit the firewall rules:
     **Notes:** Field to enter any note about this rule.
     
 5. Once the 'working config' is complete, press the **Update Rules** button to have the 'working config' applied to the firewall. The rules should take effect within two minutes. If you delete all the rules or no valid rule when you click on **Update Rules** button, you will have an error saying "At least one valid rule is required to create a firewall update request." If you don't want any rules apply to your firewall, use the **Bypass Rules** button on the Configuration page.
+
 ## Common Ports
 
 | Protocol | Port |
