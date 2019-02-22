@@ -23,7 +23,7 @@ When the Firewall is first added to the VLAN, a set of rules is initially put in
 To edit the firewall rules:
 
 1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**. Each row represents a VLAN in your infrastructure.  Click on the Firewall-vlanXXXX.networklayer.com link associated with the VLAN you want to manage to take you to the **Device Details** page. If rule(s) is existing, ensure the "Status" indicates that the firewall is "Processing All Rules."  Users can choose to bypass the rules in the event that implemented rules have an unintended impact on their environment by clicking "Bypass Rules" in this area.
+2. In the Customer Portal navigation, select **Network > IP Management > VLANs**. Each row represents a VLAN in your infrastructure.  Click on the Firewall-vlanXXXX.networklayer.com link associated with the VLAN you want to manage to take you to the **Device Details** page. In "Configuration->Status", you can see "Routing THROUGH firewall". If rule(s) exists, the "Status" indicates that the firewall is "Processing All Rules."  Users can choose to bypass the rules in the event that implemented rules have an unintended impact on their environment by clicking "Bypass Rules" in this area.
 3. To start updating rules, click on the **Rules** tab. The page will display sections showing the current rules in effect for IPv4 and IPv6 addresses.  If no rules are implemented, a faded placeholder will be displayed.  Edit individual rules by clicking on the corresponding row.  This list of rules is known as the 'working config'. A 'working config' is a set of rules that is in the process of being created but has not yet been applied to the Firewall. A user may edit, add, and delete rules until the rule set is completed.  Rules are displayed in the order in which they are processed with lower numbered rules having precedence over higher number rules (if rule 1 allows a packet through, rules 2 and beyond are not applied to the packet).
 4. Click on a rule to edit it or click on the plus sign at the bottom of the table to add an additional rule. Clicking on the minus icon will delete the rule. The rules are automatically validated as you enter them.
 
@@ -45,8 +45,7 @@ To edit the firewall rules:
 
     **Notes:** Field to enter any note about this rule.
     
-5. Once the 'working config' is complete, press the **Update Rules** button to have the 'working config' applied to the firewall. The rules should take effect within two minutes.
-
+5. Once the 'working config' is complete, press the **Update Rules** button to have the 'working config' applied to the firewall. The rules should take effect within two minutes. If you delete all the rules or no valid rule when you click on **Update Rules** button, you will have an error saying "At least one valid rule is required to create a firewall update request." If you don't want any rules apply to your firewall, use the **Bypass Rules** button on the Configuration page.
 ## Common Ports
 
 | Protocol | Port |
