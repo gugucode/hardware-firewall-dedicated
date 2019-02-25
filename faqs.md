@@ -16,6 +16,8 @@ lastupdated: "2018-11-30"
 {:faq: data-hd-content-type='faq'}
 
 # FAQs for Hardware Firewall (Dedicated)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 The following are frequently asked questions when working with the Fortigate Security Appliance 1g firewall.
 
 ## What is a firewall?

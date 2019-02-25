@@ -15,6 +15,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Viewing your IBM Firewalls
+{: #viewing-your-ibm-firewalls}
 
 To see which VLANs are protected with Firewalls and to find more details about individual Firewalls, go to the VLANs page:
 

@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## Viewing Log Reports for the Hardware Firewall (Dedicated)
+# Viewing Log Reports
+{: #viewing-log-reports}
 
 Logs are available on a per-IP basis by navigating to the protected device, selecting the **Firewall** tab, and selecting **Actions > Firewall Logs**. 
 

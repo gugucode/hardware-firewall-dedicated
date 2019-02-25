@@ -15,6 +15,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Canceling a Hardware Firewall (Dedicated)
+:{ #canceling-a-hardware-firewall-dedicated-}
 
 Firewalls can be cancelled at any time, by performing the following procedure:
 

@@ -15,6 +15,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Bypassing Hardware Firewall (Dedicated) Rules
+{: #bypassing-hardware-firewall-dedicated-rules}
 
 To bypass the firewall rules,
 

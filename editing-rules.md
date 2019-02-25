@@ -15,6 +15,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Configuring the Hardware Firewall (Dedicated)
+{: #configuring-the-hardware-firewall-dedicated-}
 
 When the Firewall is first added to the VLAN, a set of rules is initially put in place that allows all traffic through the firewall. Configuring the firewall is as simple as creating a set of rules to allow access to certain IP addresses/ports from specific internet addresses while denying traffic from other sources.
 
