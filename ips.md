@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-03-12"
 
 ---
 
@@ -171,7 +171,7 @@ ICMP – ping (for support troubleshooting)<br>
 All TCP/UDP ports<br>
 
 ## Service Network (on backend/private network)
-Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
+Be sure to add rules for DAL01, DAL10, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, DAL10, WDC04, and AMS01.
 
 |Datacenter|City|State|Country|IP Range|
 |---|---|---|---|---|
