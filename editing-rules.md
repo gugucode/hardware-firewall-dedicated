@@ -4,6 +4,10 @@ copyright:
   years: 2017,2018
 lastupdated: "2018-11-30"
 
+keywords: edit, rules, firewall
+
+subcollection: hardware-firewall-dedicated
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -45,7 +49,7 @@ To edit the firewall rules:
     **Protocol:** Selects the protocol the rule will apply to (TCP/GRE/ICMP/UDP/PPTP/AH/ESP)
 
     **Notes:** Field to enter any note about this rule.
-    
+
 5. Once the 'working config' is complete, press the **Update Rules** button to have the 'working config' applied to the firewall. The rules should take effect within two minutes.
 
 ## Common Ports

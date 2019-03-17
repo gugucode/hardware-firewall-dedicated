@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018, 2019
 lastupdated: "2019-03-12"
 
+keywords: ip, range, firewall, network, traffic, security
+
+subcollection: hardware-firewall-dedicated
+
 ---
 
 {:shortdesc: .shortdesc}
