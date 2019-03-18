@@ -14,14 +14,15 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Ver los cortafuegos
+# Ver los cortafuegos de IBM
+{: #viewing-your-ibm-firewalls}
 
 Para ver qué VLAN están protegidas con cortafuegos y obtener más detalles acerca de los cortafuegos individuales, vaya a la página de VLAN:
 
-1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono ce enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
+1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
 2. En la navegación del Portal de clientes, seleccione **Red > Gestión de IP > VLAN**.
 
-Cada fila de la tabla representa una VLAN en la infraestructura. IBM Cloud rellena la información de "Número de VLAN" y "Direccionador primario" automáticamente con el número exacto de VLAN y el direccionador en el que está configurada. El campo "Nombre" puede utilizarse para dar a la VLAN un nombre reconocible (como DMZ, Intranet, pública o base de datos).
+Cada fila de la tabla representa una VLAN en la infraestructura. IBM© Cloud rellena la información de "Número de VLAN" y "Direccionador primario" automáticamente con el número exacto de VLAN y el direccionador en el que está configurada. El campo "Nombre" puede utilizarse para dar a la VLAN un nombre reconocible (como DMZ, Intranet, pública o base de datos).
 
 La columna "Pasarela/cortafuegos" del extremo derecho contiene detalles sobre la protección de cortafuegos que hay establecida, por ejemplo:
 

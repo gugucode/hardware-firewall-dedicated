@@ -15,7 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Häufig gestellte Fragen
+# Häufig gestellte Fragen zur Hardware-Firewall (dediziert)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 Die folgenden Fragen sind häufig gestellte Fragen zur FortiGate Security Appliance-Firewall (1g).
 
 ## Was ist eine Firewall?
@@ -28,10 +30,10 @@ Eine Firewall ist ein Netzgerät, das einem Server vorgeschaltet ist. Die Firewa
 
 Der Hauptvorteil einer Firewall besteht darin, dass Ihr Server nur den "guten" Datenverkehr verarbeiten muss. Das bedeutet, dass Ihre Ressource ausschließlich für den beabsichtigten Zweck verwendet wird und für unerwünschten Datenverkehr.
 
-## Welche Firewall bietet IBM an?
+## Welche Firewallprodukte bietet IBM© an?
 {:faq}
 
-In diesem [Abschnitt ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window} finden Sie einen detaillierten Vergleich aller in der IBM Cloud angebotenen Firewall-Produkte. 
+Einen detaillierten Vergleich aller in IBM Cloud angebotenen Firewallprodukte finden Sie in diesem [Abschnitt](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls).  
 
 ## Ist die Hardware-Firewall (dediziert) mit den Load-Balancer-Produkten von IBM kompatibel?
 {:faq}
@@ -68,7 +70,7 @@ Wenn 10 Gbit/s nur für das private Netz (für Datenbank, Sicherung, Speicher us
 ## Welche IP-Bereiche sind für die Firewall zulässig?
 {:faq}
 
-Die Liste der IP-Adressen und IP-Bereiche, die die Firewall zulässt, finden Sie [hier](ips.html). 
+Die Liste der IP-Adressen und IP-Bereiche, die die Firewall zulässt, finden Sie [hier](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## Wie viele Server werden von der Hardware-Firewall (dediziert) oder der FortiGate Security Appliance maximal geschützt?
 {:faq}

@@ -15,8 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Rangos de IP de IBM Cloud
+{: #ibm-cloud-ip-ranges}
 
-Una pregunta frecuente es **¿Qué rangos de IP puedo permitir a través del cortafuegos?**. La lista siguiente contiene todo el rango de IP que se pueden utilizar con los cortafuegos y dispositivos de IBM:
+Una pregunta frecuente es **¿Qué rangos de IP puedo permitir a través del cortafuegos?**. La lista siguiente contiene todo el rango de IP que se pueden utilizar con los cortafuegos y dispositivos de IBM©:
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
@@ -168,7 +169,6 @@ Bloque de IP: el bloque de IP privado para las comunicaciones de servidor a serv
 Puertos en los que se permite:<br>
 ICMP – ping (para resolución de problemas de soporte)<br>
 Todos los puertos TCP/UDP<br>
-Para obtener información de puertos específicos para EVault, [pulse aquí](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Red de servicio (en red de fondo/privada)
 Añada reglas para DAL01, WDC04 y la ubicación del servidor. Si el servidor está en una ubicación de la UE, deberá añadir reglas que permitan el tráfico desde DAL01, WDC04 y AMS01.

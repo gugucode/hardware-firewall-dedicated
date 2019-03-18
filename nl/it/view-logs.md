@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## Visualizza i report di log
+# Visualizzazione dei report di log
+{: #viewing-log-reports}
 
 I log sono disponibili su una base per IP passando al dispositivo protetto, selezionando la scheda **Firewall** e selezionando **Actions > Firewall Logs**. 
 

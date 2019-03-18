@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# 關於
+# 關於 Hardware Firewall (Dedicated)
+{: #about-the-hardware-firewall-dedicated-}
 
 Hardware Firewall (Dedicated) 是一個從伺服器上游連接的專用單一租戶網路裝置，用於保護公共 VLAN 上的任何或所有伺服器。它不是與伺服器一起購買的，且可以隨時新增至 VLAN 中。   
 
@@ -28,7 +29,7 @@ Hardware Firewall (Dedicated) 是一個從伺服器上游連接的專用單一�
 
 **預期用途：**單一公用 VLAN 保護
 
-**使用者介面：**整合到「客戶入口網站」及 SoftLayer API
+**使用者介面：**已整合至 IBM Cloud 和 SoftLayer API 中的標準基礎架構
 
 **特性：**有狀態封包檢驗、VLAN 保護、進入防火牆規則、基本記載、IPv4、IPv6、高可用性（選用）
 

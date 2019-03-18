@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# 既知の制限
+# ハードウェア・ファイアウォール (専用) の既知の制限
+{: #known-limitations-for-hardware-firewall-dedicated-}
+
 ハードウェア・ファイアウォール (専用) には、以下の既知の制限があります。
 
 * ARP の処理方法が原因で、Windows ネットワーク負荷分散 (NLB) とは互換性がありません。

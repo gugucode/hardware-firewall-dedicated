@@ -15,7 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Perguntas mais frequentes
+# Perguntas frequentes para o Hardware Firewall (Dedicated)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 A seguir estão as perguntas mais frequentes ao trabalhar com o firewall Fortigate Security Appliance 1g.
 
 ## O que é um firewall?
@@ -28,10 +30,11 @@ Um firewall é um dispositivo de rede conectado para envio de dados por meio de 
 
 A principal vantagem de se ter um firewall é que seu servidor tem apenas que manipular o tráfego "bom" - isso significa que seu recurso está sendo usado exclusivamente para seu propósito desejado, em vez de manipular tráfego indesejado também.
 
-## Quais produtos de firewall a IBM oferece?
+## Quais produtos de firewall a IBM© oferece?
 {:faq}
 
-É possível localizar uma comparação detalhada de todos os produtos de firewall oferecidos no IBM Cloud revisando este [tópico ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+É possível localizar uma comparação detalhada de todos os produtos de firewall oferecidos no IBM Cloud revisando este
+[tópico](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## O Hardware Firewall (Dedicated) é compatível com os produtos de balanceador de carga da IBM?
 {:faq}
@@ -68,7 +71,7 @@ Se 10 Gbps forem necessários apenas na rede privada (para banco de dados, backu
 ## Quais intervalos de IP permitir por meio do firewall?
 {:faq}
 
-Para obter a lista de endereços IP e os intervalos de IP a serem permitidos por meio do firewall, acesse [aqui](ips.html). 
+Para obter a lista de endereços IP e os intervalos de IP a serem permitidos por meio do firewall, acesse [aqui](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## Qual é o número máximo de servidores que o Hardware Firewall (Dedicated) ou o Fortigate Security Appliance protegerá?
 {:faq}

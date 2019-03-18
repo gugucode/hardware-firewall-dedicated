@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## Ver informes de registro
+# Ver informes de registro
+{: #viewing-log-reports}
 
 Los registros están disponibles por cada IP navegando al dispositivo protegido, seleccionando el separador **Cortafuegos** y pulsando **Acciones > Registros de cortafuegos**. 
 

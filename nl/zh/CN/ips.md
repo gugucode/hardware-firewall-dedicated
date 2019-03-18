@@ -15,18 +15,19 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # IBM Cloud IP 范围
+{: #ibm-cloud-ip-ranges}
 
-常见问题是**我允许哪些 IP 范围通过防火墙？**。以下列表包含用于下列 IBM 防火墙和设备的完整 IP 范围：
+常见问题是**我允许哪些 IP 范围通过防火墙？**。以下列表包含用于下列 IBM© 防火墙和设备的完整 IP 范围：
 
 * IBM Cloud Juniper vSRX Standard
 * IBM 虚拟路由器设备
 * Fortigate Security Appliance 10Gbps
 * Fortigate Security Appliance 1Gbps
 * IBM 安全组
-* 硬件防火墙（专用）
-* 硬件防火墙（共享）
+* Hardware Firewall (Dedicated)
+* Hardware Firewall (Shared)
 
-## 前端（公共）网络
+## 前端（公用）网络
 
 |数据中心|城市|州/省|国家/地区|IP 范围|
 |---|---|---|---|---|
@@ -168,7 +169,6 @@ IP 块：用于服务器间通信的专用 IP 块 (10.X.X.X/X)<br>
 要允许的端口：<br>
 ICMP – ping（支持故障诊断）<br>
 所有 TCP/UDP 端口<br>
-有关特定于 EVault 端口的信息，请[单击此处](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information)。
 
 ## 服务网络（在后端/专用网络上）
 确保为 DAL01、WDC04 和服务器位置添加规则。如果服务器位于欧盟位置，那么需要添加规则以允许来自 DAL01、WDC04 和 AMS01 的流量。

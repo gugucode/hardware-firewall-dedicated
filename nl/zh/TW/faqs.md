@@ -15,7 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# 常見問題
+# Hardware Firewall (Dedicated) 的常見問題
+{: #faqs-for-hardware-firewall-dedicated-}
+
 在使用 Fortigate Security Appliance 1g 防火牆時，下列是常見問題。
 
 ## 何謂防火牆？
@@ -28,13 +30,10 @@ lastupdated: "2018-11-30"
 
 具有防火牆的主要優點在於您的伺服器只需處理「良好」的資料流量 - 這表示您的資源僅用於其預期目的，而非處理不必要的資料流量。
 
-## IBM 提供哪些防火牆產品？
+## IBM© 提供哪些防火牆產品？
 {:faq}
 
-透過檢閱此
-[ 主題
-![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}，您可以找到
-IBM Cloud 中提供的所有防火牆產品的詳細比較。 
+您可以找到 IBM Cloud 中提供的所有防火牆產品的詳細比較，方法是檢閱本[主題](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls)。 
 
 ## Hardware Firewall (Dedicated) 是否與 IBM 負載平衡器產品相容？
 {:faq}
@@ -71,7 +70,7 @@ SoftLayer 提供許多不同的服務，讓您可以使用包括 Evault、SNMP �
 ## 哪些 IP 範圍容許通過防火牆？
 {:faq}
 
-如需容許通過防火牆的 IP 位址及 IP 範圍清單，請前往[這裡](ips.html)。 
+如需容許通過防火牆的 IP 位址及 IP 範圍清單，請前往[這裡](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges)。 
 
 ##  Hardware Firewall (Dedicated) 或 Fortigate Security Appliance 將保護的伺服器數目上限為何？
 {:faq}
