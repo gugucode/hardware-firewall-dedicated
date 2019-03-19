@@ -91,7 +91,7 @@ ICMP – ping (for support troubleshooting and monitoring)
 |Datacenter|City|State|Country|IP Range|
 |---|---|---|---|---|
 |ams01|Amsterdam|-|NLD|159.253.157.0/24|
-|ams03|Amsterdam|-|NLD|159.8.197.0./24|
+|ams03|Amsterdam|-|NLD|159.8.197.0/24|
 |che01|Chennai|-|IND|169.38.117.0/24|
 |dal01|Dallas|Texas|USA|67.228.66.0/24, 75.126.76.0/24, 174.35.17.0/24, 208.43.15.0/24|
 |dal05|Dallas|Texas|USA|50.23.203.0/24, 108.168.157.0/24 173.192.117.0/24, 192.155.205.0/24|
