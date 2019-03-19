@@ -15,7 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# FAQ
+# FAQ per Hardware Firewall (Dedicated)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 Le seguenti sono le FAQ (frequently asked question) quando si utilizza il firewall FortiGate Security Appliance 1g.
 
 ## Cosa è un firewall?
@@ -28,10 +30,10 @@ Un firewall è un dispositivo di rete collegato in upstream da un server. Il fir
 
 Il vantaggio principale di avere un firewall è che il tuo server deve gestire solo il traffico “buono” – questo significa che la tua risorsa viene utilizzata solamente per lo scopo previsto invece di gestire anche il traffico non desiderato.
 
-## Quali prodotti firewall offre IBM?
+## Quali prodotti firewall offre IBM©?
 {:faq}
 
-Puoi trovare un confronto dettagliato di tutti i prodotti firewall offerti in IBM Cloud controllando questo [argomento ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+Puoi trovare un confronto dettagliato di tutti i prodotti firewall offerti in IBM Cloud esaminando questo [argomento](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## L'Hardware Firewall (Dedicated) è compatibile con i prodotti del programma di bilanciamento del carico di IBM?
 {:faq}
@@ -68,7 +70,7 @@ Se 10Gbps è necessario solo per la rete privata (per il database, il backup, l'
 ## Quali intervalli di IP consento tramite il firewall?
 {:faq}
 
-Per l'elenco degli indirizzi IP e di intervalli di IP da consentire tramite il firewall, vai [qui](ips.html). 
+Per l'elenco degli indirizzi IP e di intervalli di IP da consentire tramite il firewall, vai [qui](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## Qual è il numero massimo di server che l'Hardware Firewall (Dedicated) o il Fortigate Security Appliance proteggerà?
 {:faq}

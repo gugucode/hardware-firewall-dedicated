@@ -15,7 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Foire aux questions
+# Foire aux questions concernant le pare-feu matériel (dédié)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 Voici les questions les plus fréquentes concernant l'utilisation du pare-feu du dispositif de sécurité FortiGate (FSA) 1g.
 
 ## Qu'est-ce qu'un pare-feu ?
@@ -28,10 +30,10 @@ Un pare-feu est un périphérique réseau connecté en amont d'un serveur. Le pa
 
 Avec l'utilisation d'un pare-feu, l'avantage principal est de laisser passer uniquement le "bon" trafic, c'est-à-dire que vos ressources sont uniquement utilisées à cette fin, évitant ainsi le traitement de trafic non souhaité.
 
-## Quels sont les produits de pare-feu proposés par IBM ?
+## Quels sont les produits de pare-feu proposés par IBM© ?
 {:faq}
 
-Vous trouverez une comparaison détaillée de tous les produits de pare-feu proposés dans IBM Cloud en consultant cette [rubrique ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+Vous trouverez un comparatif détaillé de tous les produits de pare-feu proposés dans IBM Cloud en consultant cette [rubrique](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## Le pare-feu matériel (dédié) est-il compatible avec les produits d'équilibrage de charge d'IBM ?
 {:faq}
@@ -68,7 +70,7 @@ Si 10 Gbit/s sont requis sur le réseau privé uniquement (pour la base de donn�
 ## Quelles plages d'adresses IP autoriser via le pare-feu ?
 {:faq}
 
-Pour obtenir la liste des adresses IP et des plages d'adresses IP à autoriser via le pare-feu, cliquez [ici](ips.html). 
+Pour obtenir la liste des adresses IP et des plages d'adresses IP à autoriser via le pare-feu, cliquez [ici](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## Quel est le nombre maximal de serveurs pouvant être protégés par le pare-feu matériel (dédié) ou par le dispositif de sécurité FortiGate ?
 {:faq}

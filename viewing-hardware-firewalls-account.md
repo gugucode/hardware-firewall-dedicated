@@ -4,6 +4,10 @@ copyright:
   years: 2017,2018
 lastupdated: "2018-11-30"
 
+keywords: firewall, vlan, view, portal
+
+subcollection: hardware-firewall-dedicated
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,6 +19,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Viewing your IBM Firewalls
+{: #viewing-your-ibm-firewalls}
 
 To see which VLANs are protected with Firewalls and to find more details about individual Firewalls, go to the VLANs page:
 

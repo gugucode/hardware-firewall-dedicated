@@ -14,12 +14,13 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Annulation d'un pare-feu
+# Annulation d'un pare-feu matériel (dédié)
+:{ #canceling-a-hardware-firewall-dedicated-}
 
 Les pare-feux peuvent être annulés à tout moment, en procédant comme suit :
 
 1. Depuis votre navigateur, ouvrez le [Portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} et connectez-vous à votre compte.
 2. Dans la navigation du portail client, accédez à **Réseau > Gestion IP > VLAN** et cliquez sur l'unité pare-feu que vous souhaitez annuler.
-3. Sur la page **Détails de l'unité**, cliquez sur l'onglet **Configuration**, puis cliquez sur le menu déroulant **Actions** et sélectionnez **Annuler unité**. Dans la boîte de dialogue de confirmation, indiquez si vous souhaitez annuler immédiatement ou au prochain cycle de facturation. Cliquez sur **Continuer** pour procéder à l'annulation de l'unité.
+3. Sur la page **Détails de l'unité**, cliquez sur le menu déroulant **Actions** et sélectionnez **Annuler unité**. Dans la boîte de dialogue de confirmation, indiquez si vous souhaitez annuler immédiatement ou au prochain cycle de facturation. Cliquez sur **Continuer** pour procéder à l'annulation de l'unité.
 
 L'annulation du pare-feu laissera toutes les unités sur le réseau local virtuel sans protection pare-feu frontale. Ce service est fourni sur une base mensuelle et la facturation sera interrompue le mois suivant l'annulation.

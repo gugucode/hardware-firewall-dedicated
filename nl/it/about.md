@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Informazioni
+# Informazioni su Hardware Firewall (Dedicated)
+{: #about-the-hardware-firewall-dedicated-}
 
 Un Hardware Firewall (Dedicated) è un dispositivo di rete a singolo tenant collegato in upstream da un server e che protegge alcuni o tutti i server in una VLAN pubblica. Viene acquistato separatamente da un server e può essere aggiunto a una VLAN in qualsiasi momento.   
 
@@ -28,7 +29,7 @@ Poiché la larghezza di banda del server viene registrata nella porta di switch 
 
 **Utilizzo previsto:** protezione singola VLAN pubblica
 
-**Interfaccia utente:** integrata nel portale del cliente e nell'API SoftLayer
+**Interfaccia utente:** integrata nell'infrastruttura classica in IBM Cloud e nell'API SoftLayer
 
 **Funzioni:** Filtraggio stateful dei pacchetti, Protezione VLAN, Regole firewall Ingress, Registrazione di base, IPv4, IPv6, Elevata disponibilità (facoltativa)
 

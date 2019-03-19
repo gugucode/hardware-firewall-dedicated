@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Limitazioni note
+# Limitazioni note per Hardware Firewall (Dedicated)
+{: #known-limitations-for-hardware-firewall-dedicated-}
+
 L'Hardware Firewall (Dedicated) ha le seguenti limitazioni note:
 
 * Incompatibile con Windows Network Load Balancing (NLB) a causa del modo in cui viene elaborato ARP

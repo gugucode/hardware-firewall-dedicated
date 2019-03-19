@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# はじめに
+# ハードウェア・ファイアウォール (専用) の開始
+{: #getting-started-with-hardware-firewall-dedicated}
+
 ハードウェア・ファイアウォール (専用)は、サービスを中断することなくオンデマンドでプロビジョンされる絶対不可欠なセキュリティー層をお客様に提供します。 不要なトラフィックがサーバーに到達するのを防ぎ、攻撃対象領域を減らし、サーバー・リソースがそれぞれの用途専用で使用されるようにします。  
 
 ハードウェア・ファイアウォール (専用) を注文するには、以下の手順を行います。
@@ -26,4 +28,4 @@ lastupdated: "2018-11-30"
 5. 支払方法を入力して、**「続行」**をクリックします。
 6. 次の画面で、割引コードを入力し (該当する場合)、マスター・サービス契約を読んで同意し、**「注文」**をクリックします。 
 
-ハードウェア・ファイアウォール (専用) がプロビジョンされた後、[これを構成](editing-rules.html)できます。
+ハードウェア・ファイアウォール (専用) がプロビジョンされた後、[これを構成](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-configuring-the-hardware-firewall-dedicated-)できます。

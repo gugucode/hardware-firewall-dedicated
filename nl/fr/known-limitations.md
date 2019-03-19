@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Limitations connues
+# Limitations connues pour le pare-feu matériel (dédié)
+{: #known-limitations-for-hardware-firewall-dedicated-}
+
 Voici les limitations connues du pare-feu matériel (dédié) :
 
 * Il est incompatible avec l'équilibrage de la charge réseau (NLB) de Windows en raison du mode de traitement du protocole ARP

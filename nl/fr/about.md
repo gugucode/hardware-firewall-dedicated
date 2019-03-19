@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# A propos de
+# A propos du pare-feu matériel (dédié)
+{: #about-the-hardware-firewall-dedicated-}
 
 Un pare-feu matériel (dédié) est un périphérique réseau à service exclusif dédié connecté en amont d'un serveur et qui protège un ou tous les serveurs sur un réseau local virtuel (VLAN) public. Il s'achète en plus d'un serveur et peut être ajouté à un VLAN à tout moment.   
 
@@ -28,7 +29,7 @@ Comme la bande passante mensuelle du serveur est enregistrée au niveau du port 
 
 **Usage prévu :** protection de VLAN public unique
 
-**Interface utilisateur :** intégrée dans le portail client et l'API SoftLayer
+**Interface utilisateur :** intégrée dans l'infrastructure classique dans IBM Cloud et l'API SoftLayer
 
 **Fonctions :** filtrage dynamique de paquets (SPI), protection de VLAN, règles de pare-feu (trafic entrant), journalisation de base, IPv4, IPv6, haute disponibilité (facultatif)
 

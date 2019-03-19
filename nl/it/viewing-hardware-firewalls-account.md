@@ -14,14 +14,15 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Visualizza i tuoi firewall
+# Visualizzazione dei tuoi firewall IBM
+{: #viewing-your-ibm-firewalls}
 
 Per visualizzare quali VLAN sono protette dai firewall e per trovare ulteriori dettagli su ogni firewall, passa alla pagina delle VLAN:
 
 1. Dal tuo browser, apri [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} e accedi al tuo account.
 2. Nella navigazione del portale del cliente, seleziona **Network > IP Management > VLANs**.
 
-Ogni riga nella tabella rappresenta una VLAN nella tua infrastruttura. IBM Cloud popola le informazioni "VLAN Number" e "Primary Router" automaticamente indicando il router e il numero di VLAN reale che stanno venendo configurati. Il campo "Name" può essere utilizzato per fornire alla VLAN un nome riconoscibile (come DMZ, Intranet, Public o Database).
+Ogni riga nella tabella rappresenta una VLAN nella tua infrastruttura. IBM© Cloud popola le informazioni "VLAN Number" e "Primary Router" automaticamente indicando il numero VLAN reale e il router su cui è configurata. Il campo "Name" può essere utilizzato per fornire alla VLAN un nome riconoscibile (come DMZ, Intranet, Public o Database).
 
 La colonna all'estrema destra "Gateway/Firewall" contiene i dettagli su quale protezione firewall è in uso, ad esempio:
 

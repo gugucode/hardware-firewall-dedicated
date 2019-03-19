@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# 開始使用
+# 開始使用 Hardware Firewall Dedicated
+{: #getting-started-with-hardware-firewall-dedicated}
+
 Hardware Firewall (Dedicated) 提供客戶必要的安全層，可依所需佈建而不會中斷服務。這可以防止不必要的資料流量進到您的伺服器，減少您的攻擊面，並且容許您的伺服器資源專用於其預期用途。  
 
 若要訂購 Hardware Firewall (Dedicated)，請執行下列程序：
@@ -26,4 +28,4 @@ Hardware Firewall (Dedicated) 提供客戶必要的安全層，可依所需佈�
 5. 輸入您的付款選項並按一下**繼續**。
 6. 在下一個畫面中，輸入促銷代碼（如果適用），閱讀並且同意「主要服務合約」，然後按一下**下訂單**。 
 
-佈建 Hardware Firewall (Dedicated) 之後，您可以[配置它](editing-rules.html)。
+佈建 Hardware Firewall (Dedicated) 之後，您可以[配置它](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-configuring-the-hardware-firewall-dedicated-)。

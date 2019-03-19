@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Introdução
+# Introdução ao Hardware Firewall Dedicated
+{: #getting-started-with-hardware-firewall-dedicated}
+
 O Hardware Firewall (Dedicated) fornece aos clientes uma camada essencial de segurança que é provisionada sob demanda sem interrupções de serviço. Ele evita a ocorrência de tráfego indesejado nos servidores, reduzindo sua superfície de ataque e permitindo que os recursos do servidor sejam dedicados ao uso desejado.  
 
 Para pedir um Hardware Firewall (Dedicated), execute o procedimento a seguir:
@@ -26,4 +28,4 @@ Para pedir um Hardware Firewall (Dedicated), execute o procedimento a seguir:
 5. Insira sua opção de pagamento e clique em **Continuar**.
 6. Na próxima tela, insira os códigos promocionais, se aplicável, leia e concorde com o Contrato de Prestação de Serviços Principal e clique em **Fazer o pedido**. 
 
-Depois que o Hardware Firewall (Dedicated) for provisionado, será possível [configurá-lo](editing-rules.html).
+Depois que o Hardware Firewall (Dedicated) for provisionado, será possível [configurá-lo](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-configuring-the-hardware-firewall-dedicated-).

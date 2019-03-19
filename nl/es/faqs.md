@@ -15,7 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Preguntas más frecuentes
+# Preguntas más frecuentes del cortafuegos de hardware (dedicado)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 Las siguientes son las preguntas más frecuentes cuando se trabaja con el cortafuegos del dispositivo de seguridad Fortigate 1 g.
 
 ## ¿Qué es un cortafuegos?
@@ -28,10 +30,10 @@ Un cortafuegos es un dispositivo de red que está conectado en sentido ascendent
 
 La principal ventaja de tener un cortafuegos es que el servidor sólo tiene que manejar el tráfico "bueno", lo que significa que el recurso se va a utilizar únicamente para su propósito previsto, en lugar de manejar también el tráfico no deseado.
 
-## ¿Qué productos de cortafuegos ofrece IBM?
+## ¿Qué productos de cortafuegos ofrece IBM©?
 {:faq}
 
-Para ver una comparación detallada de todos los productos de cortafuegos que se ofrecen en IBM Cloud, consulte este [tema ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+Para ver una comparación detallada de todos los productos de cortafuegos que se ofrecen en IBM Cloud, consulte este [tema](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## El cortafuegos de hardware (dedicado), ¿es compatible con productos de equilibrador de carga de IBM?
 {:faq}
@@ -68,7 +70,7 @@ Si 10 Gbps solo se necesita en la red privada (para la base de datos, la copia d
 ## ¿Qué rangos de IP puedo permitir a través del cortafuegos?
 {:faq}
 
-Para consultar la lista de direcciones IP y los rangos IP que se pueden permitir a través del cortafuegos, vaya [aquí](ips.html). 
+Para consultar la lista de direcciones IP y los rangos IP que se pueden permitir a través del cortafuegos, vaya [aquí](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## ¿Cuál es el número máximo de servidores que protegen el cortafuegos de hardware (dedicado) o el dispositivo de seguridad Fortigate?
 {:faq}
