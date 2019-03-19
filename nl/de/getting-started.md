@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Einführung
+# Hardware-Firewall (dediziert) - Einführung
+{: #getting-started-with-hardware-firewall-dedicated}
+
 Die Hardware-Firewall (dediziert) bietet Kunden eine zusätzliche Sicherheitsebene, die bei Bedarf ohne Serviceunterbrechung bereitgestellt wird. Sie verhindert unerwünschten Datenverkehr auf Ihren Servern und verringert die Wahrscheinlichkeit eines Angriffs, damit Ihre Serverressourcen stets für den beabsichtigen Verwendungszweck zur Verfügung stehen.  
 
 Gehen Sie wie folgt vor, um eine Hardware-Firewall (dediziert) zu bestellen:
@@ -26,4 +28,4 @@ Gehen Sie wie folgt vor, um eine Hardware-Firewall (dediziert) zu bestellen:
 5. Geben Sie Ihre gewünschte Zahlungsart ein und klicken Sie auf **Weiter**.
 6. Geben Sie auf dem nächsten Bildschirm die Werbeaktionscodes (wenn vorhanden) ein, lesen Sie die Rahmenvereinbarung und stimmen Sie ihr zu. Klicken Sie dann auf **Bestellen**. 
 
-Wenn die Hardware-Firewall (dediziert) bereitgestellt wurde, können Sie sie [konfigurieren](editing-rules.html).
+Wenn die Hardware-Firewall (dediziert) bereitgestellt wurde, können Sie sie [konfigurieren](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-configuring-the-hardware-firewall-dedicated-).

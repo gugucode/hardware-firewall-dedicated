@@ -15,13 +15,14 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Añadir un cortafuegos de hardware (dedicado) a una VLAN pública
+{: #adding-a-hardware-firewall-dedicated-to-a-public-vlan}
 
 Un cortafuegos de hardware (dedicado) no se puede incluir como parte de un pedido de servidor, y se debe realizar una vez que se haya establecido al menos un nodo de cálculo público y que se haya añadido la VLAN asociada.
 
 Para añadir protección a una VLAN, pida un cortafuegos de hardware (dedicado) desde la página de VLAN:
 
-1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono ce enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
-2. En la navegación del Portal de clientes, seleccione **Red > Gestión de IP > VLAN** para ir a la página de VLAN. Cada fila representa una VLAN en la infraestructura. IBM Cloud rellena la información de "Número de VLAN" y "Direccionador primario" automáticamente con el número exacto de VLAN y el direccionador en el que está configurada. El campo "Nombre" puede utilizarse para definir un nombre reconocible. La columna "Pasarela/cortafuegos" del extremo derecho contiene detalles sobre la protección de cortafuegos, si la hay, que hay establecida para dicha VLAN. 
+1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
+2. En la navegación del Portal de clientes, seleccione **Red > Gestión de IP > VLAN** para ir a la página de VLAN. Cada fila representa una VLAN en la infraestructura. IBM© Cloud rellena la información de "Número de VLAN" y "Direccionador primario" automáticamente con el número exacto de VLAN y el direccionador en el que está configurada. El campo "Nombre" puede utilizarse para definir un nombre reconocible. La columna "Pasarela/cortafuegos" del extremo derecho contiene detalles sobre la protección de cortafuegos, si la hay, que hay establecida para dicha VLAN. 
 
 	**Consejo:** para filtrar la tabla de VLAN para mostrar solo las VLAN públicas, pulse el separador **Filtro**, especifique "fcr" en el campo Direccionador primario y pulse el botón **Filtro**.
 3. Busque la VLAN que desea proteger y pulse el enlace **Añadir cortafuegos** en la misma fila. Este enlace abre la página **Pedir cortafuegos de hardware (dedicado)**. Si la columna "Pasarela/cortafuegos" ya está llena, ya hay un cortafuegos o una pasarela de red asociada con la VLAN, y el dispositivo se debe eliminar para poder continuar.

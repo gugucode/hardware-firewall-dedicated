@@ -15,8 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # IBM Cloud の IP 範囲
+{: #ibm-cloud-ip-ranges}
 
-よくあるご質問の 1 つは、**どの IP 範囲を、ファイアウォール通過の許可対象にしますか?** というものです。 以下のリストに、IBM ファイアウォールおよびアプライアンスで使用する IP の全範囲を示します。
+よくあるご質問の 1 つは、**どの IP 範囲を、ファイアウォール通過の許可対象にしますか?** というものです。 次の IBM© ファイアウォールおよびアプライアンスで使用する IPの全範囲を、後続のリストに示します。
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
@@ -168,7 +169,6 @@ IP ブロック: お客様のサーバー間通信用プライベート IP ブ�
 許可するポート:<br>
 ICMP – ping (トラブルシューティングをサポートするため)<br>
 すべての TCP/UDP ポート<br>
-EVault のポート固有情報については、[ここをクリック](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information)してください。
 
 ## サービス・ネットワーク (バックエンド/プライベート・ネットワーク上)
 DAL01、WDC04、およびサーバー・ロケーションのルールを必ず追加してください。 サーバーが EU 内にある場合は、DAL01、WDC04、および AMS01 からのトラフィックを許可するルールを追加する必要があります。

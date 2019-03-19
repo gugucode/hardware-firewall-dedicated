@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## 查看日志报告
+# 查看日志报告
+{: #viewing-log-reports}
 
 通过浏览至受保护设备、选择**防火墙**选项卡以及选择**操作 > 防火墙日志**，可以访问每个 IP 的日志。 
 

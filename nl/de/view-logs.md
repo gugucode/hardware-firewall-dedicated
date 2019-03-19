@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## Protokollberichte anzeigen
+# Protokollberichte anzeigen
+{: #viewing-log-reports}
 
 Für jede IP-Adresse stehen Protokolle zur Verfügung. Navigieren Sie dazu zum geschützten Gerät, wählen Sie die Registerkarte **Firewall** aus und wählen Sie **Aktionen > Firewallprotokolle** aus. 
 

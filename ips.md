@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-03-12"
+
+keywords: ip, range, firewall, network, traffic, security
+
+subcollection: hardware-firewall-dedicated
 
 ---
 
@@ -15,6 +19,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # IBM Cloud IP Ranges
+{: #ibm-cloud-ip-ranges}
 
 A frequently asked question is **What IP ranges do I allow through the firewall?**. The following list contains the full range of IPs to use with the following IBM© firewalls and appliances:
 
@@ -170,7 +175,7 @@ ICMP – ping (for support troubleshooting)<br>
 All TCP/UDP ports<br>
 
 ## Service Network (on backend/private network)
-Be sure to add rules for DAL01, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, WDC04, and AMS01.
+Be sure to add rules for DAL01, DAL10, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, DAL10, WDC04, and AMS01.
 
 |Datacenter|City|State|Country|IP Range|
 |---|---|---|---|---|
@@ -376,6 +381,7 @@ If your server uses a **Red Hat Enterprise Linux (RHEL)** license provided by So
 |Singapore (SNG01)|TOK02 and SYD01|
 |Seattle (SEA01)|SJC03 and DAL06|
 |Sydney (SYD01, SYD04)|SYD01|
+|Tokyo (TOK02, TOK04, TOK05)|TOK02 and SYD01|
 |Toronto (TOR01)|TOR01|
 |Washington DC (WDC01, WDC04, WDC06, WDC07)|MON01|
 |Any DC Not Listed Above|DAL09|

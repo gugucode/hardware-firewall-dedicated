@@ -15,6 +15,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Configurar el cortafuegos de hardware (dedicado)
+{: #configuring-the-hardware-firewall-dedicated-}
 
 Cuando se añade un cortafuegos a la VLAN por primera vez, se ponen en práctica una serie de reglas que permiten que todo el tráfico pase a través del cortafuegos. La configuración del cortafuegos es tan sencilla como crear un conjunto de reglas para permitir el acceso a determinados puertos/direcciones IP de direcciones de Internet específicas y denegar el tráfico de otras fuentes.
 
@@ -22,14 +23,13 @@ Cuando se añade un cortafuegos a la VLAN por primera vez, se ponen en práctica
 
 Para editar las reglas de cortafuegos:
 
-1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono ce enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
-2. En la navegación del Portal de clientes, seleccione **Red > Gestión de IP > VLAN**. Cada fila representa una VLAN en la infraestructura.  Pulse el enlace Cortafuegos-vlanXXXX.networklayer.com asociado con la VLAN que desea gestionar para llevarle a la página **Detalles de dispositivo**. Asegúrese de que en el "Estado" se indica que el cortafuegos está "Procesando todas las reglas".  Los usuarios pueden optar por ignorar las reglas, en caso de que las reglas aplicadas tengan un impacto no deseado en su entorno, pulsando "Ignorar reglas" en esta área.
+1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
+2. En la navegación del Portal de clientes, seleccione **Red > Gestión de IP > VLAN**. Cada fila representa una VLAN en la infraestructura.  Pulse el enlace Cortafuegos-vlanXXXX.networklayer.com asociado con la VLAN que desea gestionar para llevarle a la página **Detalles de dispositivo**. Si la regla existe, asegúrese de que en el "Estado" se indica que el cortafuegos está "Procesando todas las reglas".
+Los usuarios pueden optar por ignorar las reglas, en caso de que las reglas aplicadas tengan un impacto no deseado en su entorno, pulsando "Ignorar reglas" en esta área.
 3. Para empezar a actualizar las reglas, pulse el separador **Reglas**. La página mostrará las secciones que muestran las reglas actuales en vigor para direcciones IPv4 e IPv6.  Si no hay reglas implementadas, aparecerá un marcador sin color.  Edite reglas individuales pulsando en la fila correspondiente.  Esta lista de reglas se conoce como "configuración operativa". Una "configuración operativa" es un conjunto de reglas que está en proceso de creación pero que todavía no se han aplicado al cortafuegos. Un usuario puede editar, añadir y suprimir reglas hasta que el conjunto de reglas se haya completado.  Las reglas se visualizan en el orden en el que se procesan, y las reglas con números más bajos tienen prioridad sobre las reglas con números más altos (si la regla número 1 permite que un paquete pase, las reglas número 2 en adelante no se aplican al paquete).
 4. Pulse una regla para editarla o pulse el signo más en la parte inferior de la tabla para añadir otra regla. Al pulsar el icono menos, se suprimirá la regla. Las reglas se validan automáticamente a medida que se especifican.
 
     Los campos son:
-
-    **Orden:** el número de orden de la regla. Las reglas se pueden mover hacia arriba o hacia abajo con las flechas, y se aplican de arriba a abajo.
 
     **Acción:** 'permitir' o 'denegar' el tráfico que coincida con esta regla
 

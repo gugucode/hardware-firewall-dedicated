@@ -15,14 +15,15 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Intervalli di IP di IBM Cloud
+{: #ibm-cloud-ip-ranges}
 
-Una domanda frequente è **Quali intervalli di IP consento tramite il firewall?**. Il seguente elenco contiene l'intervallo completo di IP da utilizzare con i seguenti firewall e applicazioni di IBM:
+Una domanda frequente è **Quali intervalli di IP consento tramite il firewall?**. Il seguente elenco contiene l'intervallo completo di IP da utilizzare con i seguenti firewall e applicazioni di IBM©:
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
 * Fortigate Security Appliance 10Gbps
 * Fortigate Security Appliance 1Gbps
-* Gruppi di sicurezza IBM 
+* Gruppi di sicurezza IBM
 * Hardware Firewall (Dedicated)
 * Hardware Firewall (Shared)
 
@@ -168,7 +169,6 @@ Blocco IP: il tuo blocco IP privato del server per le comunicazioni ad esso (10.
 Porte da consentire:<br>
 ICMP – ping (per il supporto con la risoluzione dei problemi)<br>
 Tutte le porte TCP/UDP<br>
-Per le informazioni specifiche per la porta EVault, [fai clic qui](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Rete del servizio (nella rete di backend/privata)
 Assicurati di aggiungere le regole a DAL01, WDC04 e all'ubicazione del tuo server. Se il tuo server è in un'ubicazione dell'Unione Europea, dovrai aggiungere le regole consentendo il traffico da DAL01, WDC04 e AMS01.

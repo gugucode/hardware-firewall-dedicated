@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Bekannte Einschränkungen
+# Bekannte Einschränkungen bei der Hardware-Firewall (dediziert)
+{: #known-limitations-for-hardware-firewall-dedicated-}
+
 Für die Hardware-Firewall (dediziert) gelten die folgenden bekannten Einschränkungen:
 
 * Inkompatibel mit dem Windows-Netzlastenausgleich (NLB) aufgrund der Verarbeitung von ARP.

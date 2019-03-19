@@ -4,6 +4,10 @@ copyright:
   years: 2017
 lastupdated: "2018-11-30"
 
+keywords: bypass, firewall, rules,
+
+subcollection: hardware-firewall-dedicated
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,6 +19,7 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Bypassing Hardware Firewall (Dedicated) Rules
+{: #bypassing-hardware-firewall-dedicated-rules}
 
 To bypass the firewall rules,
 

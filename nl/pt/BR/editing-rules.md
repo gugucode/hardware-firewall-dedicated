@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Configurar o Hardware Firewall (Dedicated)
+# Configurando o Hardware Firewall (Dedicated)
+{: #configuring-the-hardware-firewall-dedicated-}
 
 Quando o Firewall é primeiramente incluído na VLAN, um conjunto de regras é inicialmente colocado em vigor, permitindo todo o tráfego por meio do firewall. A configuração do firewall é tão simples quanto criar um conjunto de regras para permitir o acesso a determinados endereços IP/portas por meio de endereços de Internet específico enquanto nega o tráfego de outras fontes.
 
@@ -23,13 +24,12 @@ Quando o Firewall é primeiramente incluído na VLAN, um conjunto de regras é i
 Para editar as regras de firewall:
 
 1. Em seu navegador, abra o [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} e efetue login em sua conta.
-2. Na navegação do Portal do cliente, selecione **Rede > Gerenciamento de IP > VLANs**. Cada linha representa uma VLAN em sua infraestrutura.  Clique no link Firewall-vlanXXXX.networklayer.com associado à VLAN que você deseja gerenciar para levá-lo à página **Detalhes do dispositivo**. Assegure-se de que o "Status" indique que o firewall está "Processando todas as regras".  Os usuários podem optar por efetuar bypass das regras no caso de as regras implementadas terem um impacto indesejado no ambiente, clicando em "Efetuar bypass das regras" nesta área.
+2. Na navegação do Portal do cliente, selecione **Rede > Gerenciamento de IP > VLANs**. Cada linha representa uma VLAN em sua infraestrutura.  Clique no link Firewall-vlanXXXX.networklayer.com associado à VLAN que você deseja gerenciar para levá-lo à página **Detalhes do dispositivo**. Se
+houver regras, assegure-se de que o "Status" indique que o firewall está "Processando todas as regras".  Os usuários podem optar por efetuar bypass das regras no caso de as regras implementadas terem um impacto indesejado no ambiente, clicando em "Efetuar bypass das regras" nesta área.
 3. Para iniciar a atualização das regras, clique na guia **Regras**. A página exibirá seções que mostram as regras atuais em vigor para os endereços IPv4 e IPv6.  Se nenhuma regra for implementada, um item temporário esmaecido será exibido.  Edite regras individuais clicando na linha correspondente.  Essa lista de regras é conhecida como a 'configuração funcional'. Uma 'configuração funcional' é um conjunto de regras que está no processo de criação, mas que ainda não foi aplicado ao Firewall. Um usuário pode editar, incluir e excluir regras até que o conjunto de regras seja concluído.  As regras são exibidas na ordem em que são processadas, com as regras de numeração inferior tendo precedência sobre as regras de numeração mais alta (se a regra 1 permitir um pacote, as regras 2 e além não serão aplicadas ao pacote).
 4. Clique em uma regra para editá-la ou clique no sinal de mais na parte inferior da tabela para incluir uma regra adicional. Clicar no ícone de menos excluirá a regra. As regras são validadas automaticamente conforme são inseridas.
 
     Os campos são:
-
-    **Ordem:** o número da ordem da regra. As regras podem ser movidas para cima ou para baixo na lista com as setas fornecidas e são aplicadas da parte superior para a inferior.
 
     **Ação:** 'permitir' ou 'negar' tráfego correspondente a essa regra
 

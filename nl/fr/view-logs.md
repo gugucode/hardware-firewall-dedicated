@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## Affichage des rapports de journaux
+# Affichage des rapports de journaux
+{: #viewing-log-reports}
 
 Les journaux sont disponibles par adresse IP en accédant à l'unité protégée, en sélectionnant l'onglet **Pare-feu**, puis en cliquant sur **Actions > Journaux pare-feu**. 
 

@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Informationen zu
+# Informationen zur Hardware-Firewall (dediziert)
+{: #about-the-hardware-firewall-dedicated-}
 
 Eine Hardware-Firewall (dediziert) ist ein dediziertes, für einzelne Tenants konzipiertes Netzgerät, das einem Server vorgeschaltet ist und einen oder alle Server in einem öffentlichen VLAN schützt. Sie wird separat von einem Server erworben und kann jederzeit zu einem VLAN hinzugefügt werden.   
 
@@ -28,7 +29,7 @@ Da die monatliche Serverbandbreite am Server-Switch-Port aufgezeichnet wird, wir
 
 **Bestimmungsgemäßer Gebrauch:** Einzelner öffentlicher VLAN-Schutz
 
-**Benutzerschnittstelle:** Integriert in das Customer Portal und die SoftLayer-API
+**Benutzerschnittstelle:** In die klassische Infrastruktur in IBM Cloud und die SoftLayer-API integriert
 
 **Features:** Zustandsorientierte Paketüberprüfung (SPI, Stateful Packet Inspection), VLAN-Schutz, Firewall-Eingangsregeln, Basisprotokollierung, IPv4, IPv6, Hochverfügbarkeit (optional)
 

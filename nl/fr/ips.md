@@ -15,8 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Plages d'adresses IP IBM Cloud
+{: #ibm-cloud-ip-ranges}
 
-Une question qui revient souvent est **Quelles plages d'adresses IP autoriser via le pare-feu ?**. La liste suivante contient la plage complète d'adresses IP à utiliser avec les pare-feux et dispositifs IBM suivants :
+Une question qui revient souvent est **Quelles plages d'adresses IP autoriser via le pare-feu ?**. La liste ci-dessous indique la plage complète des adresses IP à utiliser avec les pare-feux et dispositifs IBM© suivants :
 
 * IBM Cloud Juniper vSRX Standard
 * Dispositif IBM Virtual Router
@@ -168,7 +169,6 @@ Bloc d'adresses IP : votre bloc d'adresses IP privées pour les communications d
 Ports à autoriser :<br>
 ICMP – ping (pour le traitement des incidents du support)<br>
 Tous les ports TCP/UDP<br>
-Pour obtenir des informations de port pour EVault, [cliquez ici](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Réseau de service (sur réseau back-end/privé)
 Assurez-vous d'ajouter des règles pour DAL01, WDC04 et l'emplacement de votre serveur. Si votre serveur est en Europe, il vous faudra ajouter des règles autorisant le trafic en provenance de DAL01, WDC04 et AMS01.

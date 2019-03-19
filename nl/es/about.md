@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Acerca de
+# Acerca del cortafuegos de hardware (dedicado)
+{: #about-the-hardware-firewall-dedicated-}
 
 Un cortafuegos de hardware (dedicado) es un dispositivo de red dedicado de un solo arrendatario que está conectado en sentido ascendente desde un servidor y protege todos los servidores de una VLAN pública. Se adquiere por separado del servidor, y se puede añadir a una VLAN en cualquier momento.   
 
@@ -28,7 +29,7 @@ Puesto que el ancho de banda mensual del servidor se registra en el puerto de co
 
 **Uso previsto:** protección de VLAN pública única
 
-**Interfaz de usuario:** integrada en el Portal de clientes y la API de SoftLayer
+**Interfaz de usuario:** Integrada en la infraestructura clásica de IBM Cloud y SoftLayer API
 
 **Características:** inspección de paquete con estado, protección de VLAN, reglas de cortafuegos de ingreso, registro básico, IPv4, IPv6, alta disponibilidad (opcional)
 

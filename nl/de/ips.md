@@ -15,8 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # IP-Bereiche von IBM Cloud
+{: #ibm-cloud-ip-ranges}
 
-Eine häufig gestellte Frage ist **Welche IP-Bereiche sind für die Firewall zulässig?**. Die folgende Liste enthält alle IP-Bereiche, die mit den nachfolgend aufgeführten IBM Firewalls und Appliances verwendet werden können:
+Eine häufig gestellte Frage ist **Welche IP-Bereiche sind für die Firewall zulässig?**. Die folgende Liste enthält alle IP-Bereiche, die mit den nachfolgend aufgeführten IBM© Firewalls und Appliances verwendet werden können:
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
@@ -168,7 +169,6 @@ IP-Block: Ihr privater IP-Block für die Übertragung zwischen Servern (10.X.X.X
 Zulässige Ports:<br>
 ICMP - Ping (zur Unterstützung der Fehlerbehebung)<br>
 Alle TCP/UDP-Ports<br>
-Port-spezifische EVault-Informationen finden Sie [hier](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Servicenetz (im Back-End-Netz/privatem Netz)
 Stellen Sie sicher, dass Sie die Regeln für DAL01, WDC04 und den Standort Ihres Servers hinzuzufügen. Wenn sich Ihr Server an einem EU-Standort befindet, müssen Sie Regeln hinzufügen, um den Datenverkehr von DAL01, WDC04 und AMS01 zuzulassen.

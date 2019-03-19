@@ -15,8 +15,9 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # IBM Cloud IP 範圍
+{: #ibm-cloud-ip-ranges}
 
-常見問題為**哪些 IP 範圍容許通過防火牆？**。下列清單包含用於下列 IBM 防火牆及應用裝置的 IP 完整範圍：
+常見問題為**哪些 IP 範圍容許通過防火牆？**。下列清單包含用於下列 IBM© 防火牆及應用裝置的 IP 完整範圍：
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
@@ -168,7 +169,6 @@ IP 區塊：您的專用 IP 區塊，以用於伺服器對伺服器的通訊 (10
 容許的埠：<br>
 ICMP – ping（支援疑難排解）<br>
 所有 TCP/UDP 埠<br>
-如需 EVault 特定埠的資訊，[請按一下這裡](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information)。
 
 ## 服務網路（後端/專用網路）
 請務必新增 DAL01、WDC04 及您伺服器位置的規則。如果您的伺服器是在歐盟位置，您將需要新增容許 DAL01、WDC04 及 AMS01 資料流量的規則。

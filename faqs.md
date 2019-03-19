@@ -4,6 +4,10 @@ copyright:
   years: 2017
 lastupdated: "2018-11-30"
 
+keywords: faqs, questions, firewall, gateway, traffic, server, vpn, nat
+
+subcollection: hardware-firewall-dedicated
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -16,6 +20,8 @@ lastupdated: "2018-11-30"
 {:faq: data-hd-content-type='faq'}
 
 # FAQs for Hardware Firewall (Dedicated)
+{: #faqs-for-hardware-firewall-dedicated-}
+
 The following are frequently asked questions when working with the Fortigate Security Appliance 1g firewall.
 
 ## What is a firewall?
@@ -31,7 +37,7 @@ The primary advantage of having a firewall is that your server only has to handl
 ## What firewall products does IBM© offer?
 {:faq}
 
-You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
+You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
 
 ## Is the Hardware Firewall (Dedicated) compatible with IBM's load balancer products?
 {:faq}
@@ -41,7 +47,7 @@ Yes. Hardware Firewall (Dedicated) is compatible with the standard and dedicated
 ## Can I have a dedicated hardware firewall and a Network Gateway associated with the same VLAN?
 {:faq}
 
-No, it is not possible to have a firewall service (shared or dedicated) and a Network Gateway device assigned to the same VLAN. 
+No, it is not possible to have a firewall service (shared or dedicated) and a Network Gateway device assigned to the same VLAN.
 
 ## Does public traffic pass through my load balancer or Hardware Firewall first?
 {:faq}
@@ -68,7 +74,7 @@ If 10Gbps is only required on the private network (for database, backup, storage
 ## What IP ranges do I allow through the firewall?
 {:faq}
 
-For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
+For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
 
 ## What is the maximum number of servers that the Hardware Firewall (Dedicated) or Fortigate Security Appliance will protect?
 {:faq}
@@ -96,4 +102,4 @@ None. When ordered in HA, SoftLayer automatically provisions the appliances in H
 ## Which firewall products support public-to-private NAT and/or private VLAN segmentation?
 {:faq}
 
-Fortigate Security Appliance 10Gbps supports public-to-private NAT and private VLAN segmentation. 
+Fortigate Security Appliance 10Gbps supports public-to-private NAT and private VLAN segmentation.

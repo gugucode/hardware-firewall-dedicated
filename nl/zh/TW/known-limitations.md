@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# 已知的限制
+# Hardware Firewall (Dedicated) 的已知限制
+{: #known-limitations-for-hardware-firewall-dedicated-}
+
 Hardware Firewall (Dedicated) 具有下列的已知限制：
 
 * 因為處理 ARP 的方式，與 Windows Network Load Balancing (NLB) 不相容

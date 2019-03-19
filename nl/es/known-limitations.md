@@ -14,7 +14,9 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-# Limitaciones conocidas
+# Limitaciones conocidas del cortafuegos de hardware (dedicado)
+{: #known-limitations-for-hardware-firewall-dedicated-}
+
 El cortafuegos de hardware (dedicado) tiene las siguientes limitaciones conocidas:
 
 * No es compatible con Windows Network Load Balancing (NLB) debido a la forma en la que se procesa el ARP

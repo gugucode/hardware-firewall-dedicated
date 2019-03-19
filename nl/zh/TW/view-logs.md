@@ -14,7 +14,8 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 {:download: .download}
 
-## 檢視日誌報告
+# 檢視日誌報告
+{: #viewing-log-reports}
 
 日誌以每個 IP 為基礎提供，方法是導覽至受保護的裝置、選取**防火牆**標籤，然後選取**動作 > 防火牆日誌**。 
 

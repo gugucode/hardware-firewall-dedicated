@@ -15,8 +15,10 @@ lastupdated: "2018-11-30"
 {:download: .download}
 
 # Intervalos de IP do IBM Cloud
+{: #ibm-cloud-ip-ranges}
 
-Uma pergunta mais frequente é **Quais intervalos de IP permitir por meio do firewall?** A lista a seguir contém o intervalo integral de IPs a serem usados com os firewalls e dispositivos IBM a seguir:
+Uma pergunta mais frequente é **Quais intervalos de IP permitir por meio do firewall?** A lista a
+seguir contém o intervalo completo de IPs a serem usados com os firewalls e dispositivos IBM© a seguir:
 
 * IBM Cloud Juniper vSRX Standard
 * IBM Virtual Router Appliance
@@ -168,7 +170,6 @@ Bloco de IP: seu bloco de IP privado para comunicações servidor-para-servidor 
 Portas a serem permitidas:<br>
 ICMP – ping (para resolução de problemas de suporte)<br>
 Todas as portas TCP/UDP<br>
-Para obter informações específicas de porta do EVault, [clique aqui](/docs/infrastructure/Backup/evault-port-information.html#evault-port-information).
 
 ## Rede de serviço (na rede de backend/rede privada)
 Certifique-se de incluir as regras para DAL01, WDC04 e o local do seu servidor. Se o seu servidor estiver em um local da UE, será necessário incluir regras que permitam o tráfego de DAL01, WDC04 e AMS01.
