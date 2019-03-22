@@ -16,6 +16,8 @@ subcollection: hardware-firewall-dedicated
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:download: .download}
 
 # About the Hardware Firewall (Dedicated)

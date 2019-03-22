@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Getting Started With Hardware Firewall Dedicated
 {: #getting-started-with-hardware-firewall-dedicated}

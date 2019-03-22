@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Known Limitations for Hardware Firewall (Dedicated)
 {: #known-limitations-for-hardware-firewall-dedicated-}

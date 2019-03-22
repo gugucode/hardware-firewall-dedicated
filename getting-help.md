@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Getting Help and Support for Hardware Firewall (Dedicated)
 {: #getting-help-and-support-for-hardware-firewall-dedicated-}

@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Viewing Log Reports
 {: #viewing-log-reports}

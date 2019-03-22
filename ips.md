@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # IBM Cloud IP Ranges
 {: #ibm-cloud-ip-ranges}
@@ -82,8 +84,8 @@ A frequently asked question is **What IP ranges do I allow through the firewall?
 |wdc06|Washington D.C.|-|USA|169.60.118.0/23|
 |wdc07|Washington D.C.|-|USA|169.61.118.0/23|
 
-Ports to allow:<br>
-All TCP/UDP ports<br>
+Ports to allow:
+All TCP/UDP ports
 ICMP – ping (for support troubleshooting and monitoring)
 
 ## Load Balancer IPs
@@ -161,7 +163,7 @@ ICMP – ping (for support troubleshooting and monitoring)
 |TOR|Toronto|-|CAN|158.85.116.0/24|
 |WDC|Washington D.C.|-|USA|50.22.255.0/24|
 
-Ports to allow: <br>
+Ports to allow:
 All TCP/UDP ports
 
 ## Vulnerability Scans
@@ -169,10 +171,10 @@ To ensure successful completion of a vulnerability scan, please permit access fo
 
 ## Backend (private) Network
 
-IP block: your private IP block for server to server communications (10.X.X.X/X)<br>
-Ports to allow:<br>
-ICMP – ping (for support troubleshooting)<br>
-All TCP/UDP ports<br>
+IP block: your private IP block for server to server communications (10.X.X.X/X)
+Ports to allow:
+ICMP – ping (for support troubleshooting)
+All TCP/UDP ports
 
 ## Service Network (on backend/private network)
 Be sure to add rules for DAL01, DAL10, WDC04, and the location of your server. If your server is in an EU location, you'll need to add rules allowing traffic from DAL01, DAL10, WDC04, and AMS01.
@@ -228,7 +230,7 @@ Be sure to add rules for DAL01, DAL10, WDC04, and the location of your server. I
 |wdc07|Washington D.C.|-|USA|10.200.176.0/20|
 
 ## SSL VPN network (on backend/private network)
-ICMP – ping (for support troubleshooting) <br>
+ICMP – ping (for support troubleshooting) 
 All TCP/UDP ports (for access from your local workstation)
 
 ## SSL VPN Datacenters

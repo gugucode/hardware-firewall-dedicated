@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Bypassing Hardware Firewall (Dedicated) Rules
 {: #bypassing-hardware-firewall-dedicated-rules}
@@ -27,7 +29,7 @@ To bypass the firewall rules,
 2. In the Customer Portal navigation, go to **Network > IP Management > VLANs** and click on the firewall device you want to bypass.
 3. In the **Device Details** page, you can use the **Actions** drop down menu to choose **Set Rule Bypass** or in the **Status** section, you can click on the **Bypass Rules** button. Either way, you should get a confirmation dialog. Click **Yes** to confirm the action. Bypassing the rules takes approximately two minutes to take effect. While in bypass mode, the "Status" will be "Bypassing All Rules".
 
-	Another option is to route around the firewall when you are doing trouble shooting or etc, you can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status** section, you can click **Route Around**. 
+	Another option is to route around the firewall when you are doing trouble shooting or etc, you can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status** section, you can click **Route Around**.
 
 ## Enable the Rules Again
 

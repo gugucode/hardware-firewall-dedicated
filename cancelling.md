@@ -17,6 +17,8 @@ subcollection: hardware-firewall-dedicated
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Canceling a Hardware Firewall (Dedicated)
 :{ #canceling-a-hardware-firewall-dedicated-}
