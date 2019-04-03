@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-03-12"
+lastupdated: "2019-04-03"
 
 keywords: ip, range, firewall, network, traffic, security
 
@@ -361,7 +361,7 @@ All TCP/UDP ports (for access from your local workstation)
 |216.40.193.0/24|
 |216.234.234.0/24|
 
-If your server uses a **Red Hat Enterprise Linux (RHEL)** license provided by SoftLayer, you will additionally need to allow access to the service network as follows, otherwise updates and licensing will not function properly:
+If your server uses a **Red Hat Enterprise Linux (RHEL)** license provided by {{site.keyword.data.cloud_notm}}Infrastructure, you will additionally need to allow access to the service network as follows, otherwise updates and licensing will not function properly:
 
 |Server Location|Allow Service Network for this datacenter|
 |---|---|
