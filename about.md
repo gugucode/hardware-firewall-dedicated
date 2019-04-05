@@ -32,6 +32,7 @@ Customers can manage the firewall through the Customer Portal. High availability
 Since monthly server bandwidth is recorded at the server switch port, traffic blocked by the Hardware Firewall (Dedicated) is not counted against your monthly allotments, eliminating the need to pay for unwanted traffic.
 
 ## Overview and Features
+{: #overview-and-features}
 
 **Intended Use:** Single Public VLAN Protection
 

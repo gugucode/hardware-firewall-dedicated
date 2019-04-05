@@ -49,7 +49,7 @@ Yes. Hardware Firewall (Dedicated) is compatible with the standard and dedicated
 ## Can I have a dedicated hardware firewall and a Network Gateway associated with the same VLAN?
 {: faq}
 
-No, it is not possible to have a firewall service (shared or dedicated) and a Network Gateway device assigned to the same VLAN.
+No, it is not possible to have a firewall service (standard or dedicated) and a Network Gateway device assigned to the same VLAN.
 
 ## Does public traffic pass through my load balancer or Hardware Firewall first?
 {: faq}
@@ -59,7 +59,7 @@ Coming from the public internet in, the Local Load Balancer, Dedicated Load Bala
 ## Does SoftLayer charge for firewall bandwidth?
 {: faq}
 
-The Hardware Firewall (Shared), Hardware Firewall (Dedicated), and Fortigate Security Appliance are not metered for bandwidth.  Additionally, these products can reduce total bandwidth utilization by limiting the traffic that servers must respond to.
+The Hardware Firewall, Hardware Firewall (Dedicated), and Fortigate Security Appliance are not metered for bandwidth.  Additionally, these products can reduce total bandwidth utilization by limiting the traffic that servers must respond to.
 
 ## What are the greyed out ports in my Windows Firewall?
 {: faq}

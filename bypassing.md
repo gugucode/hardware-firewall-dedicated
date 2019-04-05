@@ -32,5 +32,6 @@ To bypass the firewall rules,
 	Another option is to route around the firewall when you are doing trouble shooting or etc, you can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status** section, you can click **Route Around**.
 
 ## Enable the Rules Again
+{: #enable-the-rules-again}
 
 To enable the rules again, follow the instructions above to reach the **Device Details** page, click on the **Actions** dropdown menu and choose **Set Route Bypass**. You will get a confirmation dialog. Click **Yes** to confirm the action. The "Status" will change back to "Routing THROUGH firewall" within two minutes.
